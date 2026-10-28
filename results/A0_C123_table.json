@@ -1,0 +1,1427 @@
+{
+ "label": "exploratory: run after the C0 NO-GO under PLAN.md section 9",
+ "runs": [
+  {
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C0_f360_t0.4",
+   "seeds": 40,
+   "traces": 40,
+   "front": 360.0,
+   "points": 7,
+   "steps": 60,
+   "coverage": 0.5394792872735202,
+   "precision": 0.9702004408432586,
+   "real_switches": 21,
+   "lost": 4,
+   "stopped": 24,
+   "kept": 0.5548999703158749,
+   "same_sheet": 0.9292892679094398,
+   "caught": 0.6432933815503763,
+   "dist_p50": 1.0242339819669724,
+   "ci": {
+    "coverage": [
+     0.42375495882764114,
+     0.6547647539996746
+    ],
+    "precision": [
+     0.9413159976502509,
+     0.9890648003222027
+    ]
+   },
+   "noncached_reads": 0,
+   "unlisted_reads": 0,
+   "wall_seconds": 42.0,
+   "coverage_traced": 0.8642640550419346,
+   "coverage_traced_ci": [
+    0.8041946469832133,
+    0.9145804320404533
+   ],
+   "steps_traced_median": 35.5,
+   "steps_traced_mean": 36.55,
+   "stopped_before_10": 6,
+   "full_length": 16,
+   "cond": "C0",
+   "threshold": 0.4,
+   "voxel": "9.6 um (2.399 um scan, level 2)"
+  },
+  {
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C3_f360_t0.4",
+   "seeds": 40,
+   "traces": 40,
+   "front": 360.0,
+   "points": 7,
+   "steps": 60,
+   "coverage": 0.4632171414537785,
+   "precision": 0.9337858737183687,
+   "real_switches": 19,
+   "lost": 6,
+   "stopped": 27,
+   "kept": 0.49291002416931046,
+   "same_sheet": 0.9004290311446955,
+   "caught": 0.43825653122465985,
+   "dist_p50": 1.0497122645378112,
+   "ci": {
+    "coverage": [
+     0.3457665430090108,
+     0.5758743031740505
+    ],
+    "precision": [
+     0.8440867845829491,
+     0.987753146717026
+    ]
+   },
+   "noncached_reads": 0,
+   "unlisted_reads": 0,
+   "wall_seconds": 38.9,
+   "coverage_traced": 0.8393107085582281,
+   "coverage_traced_ci": [
+    0.7408388538564672,
+    0.9116200109400462
+   ],
+   "steps_traced_median": 27.5,
+   "steps_traced_mean": 32.4,
+   "stopped_before_10": 10,
+   "full_length": 13,
+   "cond": "C3",
+   "threshold": 0.4,
+   "voxel": "9.362 um resampled to 9.63 um"
+  },
+  {
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C1_f360_t0.4",
+   "seeds": 40,
+   "traces": 40,
+   "front": 360.0,
+   "points": 7,
+   "steps": 60,
+   "coverage": 0.4190601186047651,
+   "precision": 0.9700253532087673,
+   "real_switches": 21,
+   "lost": 10,
+   "stopped": 30,
+   "kept": 0.43188653782362885,
+   "same_sheet": 0.9196113949111341,
+   "caught": 0.7108344838904498,
+   "dist_p50": 1.0587842216094334,
+   "ci": {
+    "coverage": [
+     0.30561569273038797,
+     0.5335341788617338
+    ],
+    "precision": [
+     0.935326481172094,
+     0.9894596058712521
+    ]
+   },
+   "noncached_reads": 0,
+   "unlisted_reads": 0,
+   "wall_seconds": 33.0,
+   "coverage_traced": 0.8476506201309209,
+   "coverage_traced_ci": [
+    0.7791429865739835,
+    0.8994942258101108
+   ],
+   "steps_traced_median": 25.0,
+   "steps_traced_mean": 28.95,
+   "stopped_before_10": 11,
+   "full_length": 10,
+   "cond": "C1",
+   "threshold": 0.4,
+   "voxel": "9.362 um native"
+  },
+  {
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C2_f360_t0.4",
+   "seeds": 40,
+   "traces": 40,
+   "front": 360.0,
+   "points": 7,
+   "steps": 60,
+   "coverage": 0.4387746040042578,
+   "precision": 0.8943097393565559,
+   "real_switches": 21,
+   "lost": 11,
+   "stopped": 26,
+   "kept": 0.4869456773320726,
+   "same_sheet": 0.8575999116324488,
+   "caught": 0.38613511715409815,
+   "dist_p50": 1.2028184433778126,
+   "ci": {
+    "coverage": [
+     0.31956856239334647,
+     0.5614582475407104
+    ],
+    "precision": [
+     0.7803709691365402,
+     0.9692288355475394
+    ]
+   },
+   "noncached_reads": 0,
+   "unlisted_reads": 0,
+   "wall_seconds": 34.4,
+   "coverage_traced": 0.7998439982881386,
+   "coverage_traced_ci": [
+    0.6842636931271422,
+    0.885984865006134
+   ],
+   "steps_traced_median": 31.5,
+   "steps_traced_mean": 31.975,
+   "stopped_before_10": 12,
+   "full_length": 14,
+   "cond": "C2",
+   "threshold": 0.4,
+   "voxel": "8.64 um geometry"
+  },
+  {
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C0_f360_t0.3",
+   "seeds": 40,
+   "traces": 40,
+   "front": 360.0,
+   "points": 7,
+   "steps": 60,
+   "coverage": 0.662290189373097,
+   "precision": 0.9343744967332638,
+   "real_switches": 28,
+   "lost": 12,
+   "stopped": 19,
+   "kept": 0.7033631318924788,
+   "same_sheet": 0.9058390230982564,
+   "caught": 0.4082912434972255,
+   "dist_p50": 1.0707964062690736,
+   "ci": {
+    "coverage": [
+     0.5535285925584665,
+     0.7603766787617161
+    ],
+    "precision": [
+     0.8787807105298447,
+     0.9752810458674847
+    ]
+   },
+   "noncached_reads": 0,
+   "unlisted_reads": 0,
+   "wall_seconds": 49.7,
+   "coverage_traced": 0.8716207675487112,
+   "coverage_traced_ci": [
+    0.8099148493280046,
+    0.9235851081623532
+   ],
+   "steps_traced_median": 60.0,
+   "steps_traced_mean": 44.475,
+   "stopped_before_10": 4,
+   "full_length": 21,
+   "cond": "C0",
+   "threshold": 0.3,
+   "voxel": "9.6 um (2.399 um scan, level 2)"
+  },
+  {
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C3_f360_t0.3",
+   "seeds": 40,
+   "traces": 40,
+   "front": 360.0,
+   "points": 7,
+   "steps": 60,
+   "coverage": 0.5778284625729327,
+   "precision": 0.9030057665989214,
+   "real_switches": 30,
+   "lost": 12,
+   "stopped": 21,
+   "kept": 0.6330803414151075,
+   "same_sheet": 0.8809526815326417,
+   "caught": 0.28394488382631927,
+   "dist_p50": 1.101628421743711,
+   "ci": {
+    "coverage": [
+     0.4644785450668567,
+     0.6882428558944894
+    ],
+    "precision": [
+     0.8210655277586988,
+     0.9696316604628242
+    ]
+   },
+   "noncached_reads": 0,
+   "unlisted_reads": 0,
+   "wall_seconds": 43.9,
+   "coverage_traced": 0.8409361648536603,
+   "coverage_traced_ci": [
+    0.7571462096861051,
+    0.9090968973139806
+   ],
+   "steps_traced_median": 52.5,
+   "steps_traced_mean": 39.925,
+   "stopped_before_10": 7,
+   "full_length": 19,
+   "cond": "C3",
+   "threshold": 0.3,
+   "voxel": "9.362 um resampled to 9.63 um"
+  },
+  {
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C1_f360_t0.3",
+   "seeds": 40,
+   "traces": 40,
+   "front": 360.0,
+   "points": 7,
+   "steps": 60,
+   "coverage": 0.5483163993595036,
+   "precision": 0.9006521410615779,
+   "real_switches": 29,
+   "lost": 16,
+   "stopped": 21,
+   "kept": 0.6014986212037893,
+   "same_sheet": 0.8719700111141785,
+   "caught": 0.322243234950447,
+   "dist_p50": 1.1464445263147354,
+   "ci": {
+    "coverage": [
+     0.43753016535964034,
+     0.6588366006609236
+    ],
+    "precision": [
+     0.8039515221387634,
+     0.9686053175175331
+    ]
+   },
+   "noncached_reads": 0,
+   "unlisted_reads": 0,
+   "wall_seconds": 41.7,
+   "coverage_traced": 0.8177205549589217,
+   "coverage_traced_ci": [
+    0.72427340533864,
+    0.8892262589968464
+   ],
+   "steps_traced_median": 40.0,
+   "steps_traced_mean": 38.725,
+   "stopped_before_10": 6,
+   "full_length": 19,
+   "cond": "C1",
+   "threshold": 0.3,
+   "voxel": "9.362 um native"
+  },
+  {
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C2_f360_t0.3",
+   "seeds": 40,
+   "traces": 40,
+   "front": 360.0,
+   "points": 7,
+   "steps": 60,
+   "coverage": 0.5263899709703214,
+   "precision": 0.8622116210864671,
+   "real_switches": 28,
+   "lost": 13,
+   "stopped": 20,
+   "kept": 0.6038748587477011,
+   "same_sheet": 0.8438453833645659,
+   "caught": 0.20729837590742856,
+   "dist_p50": 1.288430991768837,
+   "ci": {
+    "coverage": [
+     0.4097609510279383,
+     0.6429199980555685
+    ],
+    "precision": [
+     0.7521674051441115,
+     0.9499651244289441
+    ]
+   },
+   "noncached_reads": 0,
+   "unlisted_reads": 0,
+   "wall_seconds": 40.2,
+   "coverage_traced": 0.8021061296203362,
+   "coverage_traced_ci": [
+    0.6971282769529346,
+    0.8905734229878361
+   ],
+   "steps_traced_median": 50.0,
+   "steps_traced_mean": 38.35,
+   "stopped_before_10": 8,
+   "full_length": 20,
+   "cond": "C2",
+   "threshold": 0.3,
+   "voxel": "8.64 um geometry"
+  },
+  {
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C0_f480_t0.4",
+   "seeds": 40,
+   "traces": 40,
+   "front": 480.0,
+   "points": 9,
+   "steps": 60,
+   "coverage": 0.6366254036598493,
+   "precision": 0.96898976891537,
+   "real_switches": 26,
+   "lost": 9,
+   "stopped": 20,
+   "kept": 0.6560997488338715,
+   "same_sheet": 0.9388957843796868,
+   "caught": 0.5372981652496394,
+   "dist_p50": 1.0382902950048447,
+   "ci": {
+    "coverage": [
+     0.5292412046710175,
+     0.7345652712613686
+    ],
+    "precision": [
+     0.9504711402058813,
+     0.9838462351549142
+    ]
+   },
+   "noncached_reads": 0,
+   "unlisted_reads": 0,
+   "wall_seconds": 61.5,
+   "coverage_traced": 0.8847630083597207,
+   "coverage_traced_ci": [
+    0.8372989629945321,
+    0.9265048287972092
+   ],
+   "steps_traced_median": 58.5,
+   "steps_traced_mean": 42.825,
+   "stopped_before_10": 4,
+   "full_length": 20,
+   "cond": "C0",
+   "threshold": 0.4,
+   "voxel": "9.6 um (2.399 um scan, level 2)"
+  },
+  {
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C3_f480_t0.4",
+   "seeds": 40,
+   "traces": 40,
+   "front": 480.0,
+   "points": 9,
+   "steps": 60,
+   "coverage": 0.6021259418729817,
+   "precision": 0.9607110179438842,
+   "real_switches": 25,
+   "lost": 9,
+   "stopped": 21,
+   "kept": 0.6262468604233942,
+   "same_sheet": 0.9383317104123301,
+   "caught": 0.4050013595944675,
+   "dist_p50": 1.0345820208390555,
+   "ci": {
+    "coverage": [
+     0.49501938455228706,
+     0.7067427949026827
+    ],
+    "precision": [
+     0.9319560321468536,
+     0.9813456036927918
+    ]
+   },
+   "noncached_reads": 0,
+   "unlisted_reads": 0,
+   "wall_seconds": 52.0,
+   "coverage_traced": 0.8834400721800519,
+   "coverage_traced_ci": [
+    0.8380364995516923,
+    0.9214564967547795
+   ],
+   "steps_traced_median": 45.0,
+   "steps_traced_mean": 40.65,
+   "stopped_before_10": 5,
+   "full_length": 19,
+   "cond": "C3",
+   "threshold": 0.4,
+   "voxel": "9.362 um resampled to 9.63 um"
+  },
+  {
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C1_f480_t0.4",
+   "seeds": 40,
+   "traces": 40,
+   "front": 480.0,
+   "points": 9,
+   "steps": 60,
+   "coverage": 0.555059203444564,
+   "precision": 0.9577910840154382,
+   "real_switches": 25,
+   "lost": 10,
+   "stopped": 23,
+   "kept": 0.5796286329386438,
+   "same_sheet": 0.9147485318008893,
+   "caught": 0.5621644635899,
+   "dist_p50": 1.0574182371298473,
+   "ci": {
+    "coverage": [
+     0.45008819736078703,
+     0.6547415378689532
+    ],
+    "precision": [
+     0.9255194563457273,
+     0.9803980829623479
+    ]
+   },
+   "noncached_reads": 0,
+   "unlisted_reads": 0,
+   "wall_seconds": 48.2,
+   "coverage_traced": 0.8500915720556549,
+   "coverage_traced_ci": [
+    0.7989486851384222,
+    0.8958559824590969
+   ],
+   "steps_traced_median": 36.5,
+   "steps_traced_mean": 38.7,
+   "stopped_before_10": 5,
+   "full_length": 17,
+   "cond": "C1",
+   "threshold": 0.4,
+   "voxel": "9.362 um native"
+  },
+  {
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C2_f480_t0.4",
+   "seeds": 40,
+   "traces": 40,
+   "front": 480.0,
+   "points": 9,
+   "steps": 60,
+   "coverage": 0.5108091137423753,
+   "precision": 0.9400601937953719,
+   "real_switches": 28,
+   "lost": 14,
+   "stopped": 25,
+   "kept": 0.544259059921062,
+   "same_sheet": 0.8965430084750932,
+   "caught": 0.5004201866722473,
+   "dist_p50": 1.2425078948338826,
+   "ci": {
+    "coverage": [
+     0.39653058454650664,
+     0.6197875172344899
+    ],
+    "precision": [
+     0.8970328008631953,
+     0.97098236640798
+    ]
+   },
+   "noncached_reads": 0,
+   "unlisted_reads": 0,
+   "wall_seconds": 44.6,
+   "coverage_traced": 0.8328830883539776,
+   "coverage_traced_ci": [
+    0.7673195543104584,
+    0.8860706918265996
+   ],
+   "steps_traced_median": 36.0,
+   "steps_traced_mean": 36.125,
+   "stopped_before_10": 9,
+   "full_length": 15,
+   "cond": "C2",
+   "threshold": 0.4,
+   "voxel": "8.64 um geometry"
+  },
+  {
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C0_f480_t0.3",
+   "seeds": 40,
+   "traces": 40,
+   "front": 480.0,
+   "points": 9,
+   "steps": 60,
+   "coverage": 0.7530678148546824,
+   "precision": 0.9087519885838765,
+   "real_switches": 32,
+   "lost": 12,
+   "stopped": 13,
+   "kept": 0.82491926803014,
+   "same_sheet": 0.8908142716694123,
+   "caught": 0.26537807056248536,
+   "dist_p50": 1.0772177110115686,
+   "ci": {
+    "coverage": [
+     0.6563047273887672,
+     0.8366922317904557
+    ],
+    "precision": [
+     0.8513109820685619,
+     0.9573709437288778
+    ]
+   },
+   "noncached_reads": 0,
+   "unlisted_reads": 0,
+   "wall_seconds": 63.5,
+   "coverage_traced": 0.8597465472956973,
+   "coverage_traced_ci": [
+    0.7982098527630327,
+    0.912449890381454
+   ],
+   "steps_traced_median": 60.0,
+   "steps_traced_mean": 51.95,
+   "stopped_before_10": 3,
+   "full_length": 27,
+   "cond": "C0",
+   "threshold": 0.3,
+   "voxel": "9.6 um (2.399 um scan, level 2)"
+  },
+  {
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C3_f480_t0.3",
+   "seeds": 40,
+   "traces": 40,
+   "front": 480.0,
+   "points": 9,
+   "steps": 60,
+   "coverage": 0.7072120559741659,
+   "precision": 0.9166074283800668,
+   "real_switches": 28,
+   "lost": 13,
+   "stopped": 13,
+   "kept": 0.7675008970218874,
+   "same_sheet": 0.8965605879349998,
+   "caught": 0.2899878164817004,
+   "dist_p50": 1.0897642195224762,
+   "ci": {
+    "coverage": [
+     0.6094335966356401,
+     0.7937747437848951
+    ],
+    "precision": [
+     0.8648820264386636,
+     0.959327238902821
+    ]
+   },
+   "noncached_reads": 0,
+   "unlisted_reads": 0,
+   "wall_seconds": 60.6,
+   "coverage_traced": 0.8621571094662228,
+   "coverage_traced_ci": [
+    0.8019795890706324,
+    0.9143455364366836
+   ],
+   "steps_traced_median": 60.0,
+   "steps_traced_mean": 48.6,
+   "stopped_before_10": 4,
+   "full_length": 27,
+   "cond": "C3",
+   "threshold": 0.3,
+   "voxel": "9.362 um resampled to 9.63 um"
+  },
+  {
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C1_f480_t0.3",
+   "seeds": 40,
+   "traces": 40,
+   "front": 480.0,
+   "points": 9,
+   "steps": 60,
+   "coverage": 0.6619393613204162,
+   "precision": 0.9186860849016568,
+   "real_switches": 31,
+   "lost": 12,
+   "stopped": 16,
+   "kept": 0.7166935773232868,
+   "same_sheet": 0.8852579963585312,
+   "caught": 0.34274576699187936,
+   "dist_p50": 1.11830073595047,
+   "ci": {
+    "coverage": [
+     0.5628698458869157,
+     0.7520444627702858
+    ],
+    "precision": [
+     0.8705200369284136,
+     0.9555304779470927
+    ]
+   },
+   "noncached_reads": 0,
+   "unlisted_reads": 0,
+   "wall_seconds": 56.5,
+   "coverage_traced": 0.8447213532377823,
+   "coverage_traced_ci": [
+    0.7875325068432054,
+    0.8912723386883183
+   ],
+   "steps_traced_median": 60.0,
+   "steps_traced_mean": 46.45,
+   "stopped_before_10": 3,
+   "full_length": 24,
+   "cond": "C1",
+   "threshold": 0.3,
+   "voxel": "9.362 um native"
+  },
+  {
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C2_f480_t0.3",
+   "seeds": 40,
+   "traces": 40,
+   "front": 480.0,
+   "points": 9,
+   "steps": 60,
+   "coverage": 0.6807274533524466,
+   "precision": 0.8813964597772983,
+   "real_switches": 33,
+   "lost": 20,
+   "stopped": 13,
+   "kept": 0.7676588878397066,
+   "same_sheet": 0.8552257319903163,
+   "caught": 0.26611155026529026,
+   "dist_p50": 1.3472682694594065,
+   "ci": {
+    "coverage": [
+     0.5857648117360921,
+     0.7711059753161544
+    ],
+    "precision": [
+     0.8254240002778195,
+     0.9307095623739536
+    ]
+   },
+   "noncached_reads": 0,
+   "unlisted_reads": 0,
+   "wall_seconds": 59.6,
+   "coverage_traced": 0.8133838504312962,
+   "coverage_traced_ci": [
+    0.7516574925597959,
+    0.8683390612260296
+   ],
+   "steps_traced_median": 60.0,
+   "steps_traced_mean": 49.45,
+   "stopped_before_10": 3,
+   "full_length": 27,
+   "cond": "C2",
+   "threshold": 0.3,
+   "voxel": "8.64 um geometry"
+  }
+ ],
+ "paired": [
+  {
+   "ref": "~/kaggle-data/vesuvius/tracereval/runs/A0_C0_f360_t0.4",
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C3_f360_t0.4",
+   "pairs": 40,
+   "ref_only": 0,
+   "ref_metrics": {
+    "coverage": 0.5394792872735202,
+    "precision": 0.9702004408432586,
+    "real_switches": 21,
+    "n": 40
+   },
+   "run_metrics": {
+    "coverage": 0.4632171414537785,
+    "precision": 0.9337858737183687,
+    "real_switches": 19,
+    "n": 40
+   },
+   "change": {
+    "coverage": -0.07626214581974172,
+    "precision": -0.036414567124889885
+   },
+   "ci": {
+    "coverage": [
+     -0.13117905049741285,
+     -0.024912571976520807
+    ],
+    "precision": [
+     -0.1240597780709173,
+     0.010279945572808905
+    ]
+   },
+   "front": 360,
+   "points": 7,
+   "threshold": 0.4,
+   "cond": "C3",
+   "ref_cond": "C0"
+  },
+  {
+   "ref": "~/kaggle-data/vesuvius/tracereval/runs/A0_C3_f360_t0.4",
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C1_f360_t0.4",
+   "pairs": 40,
+   "ref_only": 0,
+   "ref_metrics": {
+    "coverage": 0.4632171414537785,
+    "precision": 0.9337858737183687,
+    "real_switches": 19,
+    "n": 40
+   },
+   "run_metrics": {
+    "coverage": 0.4190601186047651,
+    "precision": 0.9700253532087673,
+    "real_switches": 21,
+    "n": 40
+   },
+   "change": {
+    "coverage": -0.044157022849013405,
+    "precision": 0.03623947949039852
+   },
+   "ci": {
+    "coverage": [
+     -0.11550576354729233,
+     0.016893218657017057
+    ],
+    "precision": [
+     -0.009104139351654624,
+     0.12455063400229296
+    ]
+   },
+   "front": 360,
+   "points": 7,
+   "threshold": 0.4,
+   "cond": "C1",
+   "ref_cond": "C3",
+   "reading": "no measurable effect at this sample size"
+  },
+  {
+   "ref": "~/kaggle-data/vesuvius/tracereval/runs/A0_C3_f360_t0.4",
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C2_f360_t0.4",
+   "pairs": 40,
+   "ref_only": 0,
+   "ref_metrics": {
+    "coverage": 0.4632171414537785,
+    "precision": 0.9337858737183687,
+    "real_switches": 19,
+    "n": 40
+   },
+   "run_metrics": {
+    "coverage": 0.4387746040042578,
+    "precision": 0.8943097393565559,
+    "real_switches": 21,
+    "n": 40
+   },
+   "change": {
+    "coverage": -0.02444253744952074,
+    "precision": -0.039476134361812854
+   },
+   "ci": {
+    "coverage": [
+     -0.10487370688888267,
+     0.04427117372261121
+    ],
+    "precision": [
+     -0.14363519008506012,
+     0.047851369195712715
+    ]
+   },
+   "front": 360,
+   "points": 7,
+   "threshold": 0.4,
+   "cond": "C2",
+   "ref_cond": "C3",
+   "reading": "no measurable effect at this sample size"
+  },
+  {
+   "ref": "~/kaggle-data/vesuvius/tracereval/runs/A0_C0_f360_t0.4",
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C1_f360_t0.4",
+   "pairs": 40,
+   "ref_only": 0,
+   "ref_metrics": {
+    "coverage": 0.5394792872735202,
+    "precision": 0.9702004408432586,
+    "real_switches": 21,
+    "n": 40
+   },
+   "run_metrics": {
+    "coverage": 0.4190601186047651,
+    "precision": 0.9700253532087673,
+    "real_switches": 21,
+    "n": 40
+   },
+   "change": {
+    "coverage": -0.12041916866875513,
+    "precision": -0.00017508763449136655
+   },
+   "ci": {
+    "coverage": [
+     -0.20662017312611466,
+     -0.0460525656897685
+    ],
+    "precision": [
+     -0.013754737458696115,
+     0.011030827383987534
+    ]
+   },
+   "front": 360,
+   "points": 7,
+   "threshold": 0.4,
+   "cond": "C1",
+   "ref_cond": "C0"
+  },
+  {
+   "ref": "~/kaggle-data/vesuvius/tracereval/runs/A0_C0_f360_t0.4",
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C2_f360_t0.4",
+   "pairs": 40,
+   "ref_only": 0,
+   "ref_metrics": {
+    "coverage": 0.5394792872735202,
+    "precision": 0.9702004408432586,
+    "real_switches": 21,
+    "n": 40
+   },
+   "run_metrics": {
+    "coverage": 0.4387746040042578,
+    "precision": 0.8943097393565559,
+    "real_switches": 21,
+    "n": 40
+   },
+   "change": {
+    "coverage": -0.10070468326926246,
+    "precision": -0.07589070148670274
+   },
+   "ci": {
+    "coverage": [
+     -0.1972186416379419,
+     -0.0060209584164985785
+    ],
+    "precision": [
+     -0.1836982124711383,
+     -0.0073266052343163275
+    ]
+   },
+   "front": 360,
+   "points": 7,
+   "threshold": 0.4,
+   "cond": "C2",
+   "ref_cond": "C0"
+  },
+  {
+   "ref": "~/kaggle-data/vesuvius/tracereval/runs/A0_C0_f360_t0.3",
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C3_f360_t0.3",
+   "pairs": 40,
+   "ref_only": 0,
+   "ref_metrics": {
+    "coverage": 0.662290189373097,
+    "precision": 0.9343744967332638,
+    "real_switches": 28,
+    "n": 40
+   },
+   "run_metrics": {
+    "coverage": 0.5778284625729327,
+    "precision": 0.9030057665989214,
+    "real_switches": 30,
+    "n": 40
+   },
+   "change": {
+    "coverage": -0.08446172680016428,
+    "precision": -0.03136873013434238
+   },
+   "ci": {
+    "coverage": [
+     -0.14454423018552204,
+     -0.029353826080899724
+    ],
+    "precision": [
+     -0.11762979221248872,
+     0.044201413304931915
+    ]
+   },
+   "front": 360,
+   "points": 7,
+   "threshold": 0.3,
+   "cond": "C3",
+   "ref_cond": "C0"
+  },
+  {
+   "ref": "~/kaggle-data/vesuvius/tracereval/runs/A0_C3_f360_t0.3",
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C1_f360_t0.3",
+   "pairs": 40,
+   "ref_only": 0,
+   "ref_metrics": {
+    "coverage": 0.5778284625729327,
+    "precision": 0.9030057665989214,
+    "real_switches": 30,
+    "n": 40
+   },
+   "run_metrics": {
+    "coverage": 0.5483163993595036,
+    "precision": 0.9006521410615779,
+    "real_switches": 29,
+    "n": 40
+   },
+   "change": {
+    "coverage": -0.02951206321342914,
+    "precision": -0.002353625537343529
+   },
+   "ci": {
+    "coverage": [
+     -0.08860726301618921,
+     0.021162920383593988
+    ],
+    "precision": [
+     -0.10696340681396838,
+     0.09720540012545455
+    ]
+   },
+   "front": 360,
+   "points": 7,
+   "threshold": 0.3,
+   "cond": "C1",
+   "ref_cond": "C3",
+   "reading": "no measurable effect at this sample size"
+  },
+  {
+   "ref": "~/kaggle-data/vesuvius/tracereval/runs/A0_C3_f360_t0.3",
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C2_f360_t0.3",
+   "pairs": 40,
+   "ref_only": 0,
+   "ref_metrics": {
+    "coverage": 0.5778284625729327,
+    "precision": 0.9030057665989214,
+    "real_switches": 30,
+    "n": 40
+   },
+   "run_metrics": {
+    "coverage": 0.5263899709703214,
+    "precision": 0.8622116210864671,
+    "real_switches": 28,
+    "n": 40
+   },
+   "change": {
+    "coverage": -0.05143849160261138,
+    "precision": -0.040794145512454305
+   },
+   "ci": {
+    "coverage": [
+     -0.13304514969047374,
+     0.017898899792678887
+    ],
+    "precision": [
+     -0.1311939771686522,
+     0.04021114898039619
+    ]
+   },
+   "front": 360,
+   "points": 7,
+   "threshold": 0.3,
+   "cond": "C2",
+   "ref_cond": "C3",
+   "reading": "no measurable effect at this sample size"
+  },
+  {
+   "ref": "~/kaggle-data/vesuvius/tracereval/runs/A0_C0_f360_t0.3",
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C1_f360_t0.3",
+   "pairs": 40,
+   "ref_only": 0,
+   "ref_metrics": {
+    "coverage": 0.662290189373097,
+    "precision": 0.9343744967332638,
+    "real_switches": 28,
+    "n": 40
+   },
+   "run_metrics": {
+    "coverage": 0.5483163993595036,
+    "precision": 0.9006521410615779,
+    "real_switches": 29,
+    "n": 40
+   },
+   "change": {
+    "coverage": -0.11397379001359342,
+    "precision": -0.03372235567168591
+   },
+   "ci": {
+    "coverage": [
+     -0.1907199556345711,
+     -0.04484470836162251
+    ],
+    "precision": [
+     -0.09059099586490164,
+     0.006030775404597339
+    ]
+   },
+   "front": 360,
+   "points": 7,
+   "threshold": 0.3,
+   "cond": "C1",
+   "ref_cond": "C0"
+  },
+  {
+   "ref": "~/kaggle-data/vesuvius/tracereval/runs/A0_C0_f360_t0.3",
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C2_f360_t0.3",
+   "pairs": 40,
+   "ref_only": 0,
+   "ref_metrics": {
+    "coverage": 0.662290189373097,
+    "precision": 0.9343744967332638,
+    "real_switches": 28,
+    "n": 40
+   },
+   "run_metrics": {
+    "coverage": 0.5263899709703214,
+    "precision": 0.8622116210864671,
+    "real_switches": 28,
+    "n": 40
+   },
+   "change": {
+    "coverage": -0.13590021840277566,
+    "precision": -0.07216287564679669
+   },
+   "ci": {
+    "coverage": [
+     -0.23518317844358397,
+     -0.040204127596360946
+    ],
+    "precision": [
+     -0.15762330529889018,
+     -0.009727060988700253
+    ]
+   },
+   "front": 360,
+   "points": 7,
+   "threshold": 0.3,
+   "cond": "C2",
+   "ref_cond": "C0"
+  },
+  {
+   "ref": "~/kaggle-data/vesuvius/tracereval/runs/A0_C0_f480_t0.4",
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C3_f480_t0.4",
+   "pairs": 40,
+   "ref_only": 0,
+   "ref_metrics": {
+    "coverage": 0.6366254036598493,
+    "precision": 0.96898976891537,
+    "real_switches": 26,
+    "n": 40
+   },
+   "run_metrics": {
+    "coverage": 0.6021259418729817,
+    "precision": 0.9607110179438842,
+    "real_switches": 25,
+    "n": 40
+   },
+   "change": {
+    "coverage": -0.03449946178686758,
+    "precision": -0.008278750971485782
+   },
+   "ci": {
+    "coverage": [
+     -0.0936755793226381,
+     0.024664522246375407
+    ],
+    "precision": [
+     -0.027778157026413015,
+     0.010074793760603886
+    ]
+   },
+   "front": 480,
+   "points": 9,
+   "threshold": 0.4,
+   "cond": "C3",
+   "ref_cond": "C0"
+  },
+  {
+   "ref": "~/kaggle-data/vesuvius/tracereval/runs/A0_C3_f480_t0.4",
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C1_f480_t0.4",
+   "pairs": 40,
+   "ref_only": 0,
+   "ref_metrics": {
+    "coverage": 0.6021259418729817,
+    "precision": 0.9607110179438842,
+    "real_switches": 25,
+    "n": 40
+   },
+   "run_metrics": {
+    "coverage": 0.555059203444564,
+    "precision": 0.9577910840154382,
+    "real_switches": 25,
+    "n": 40
+   },
+   "change": {
+    "coverage": -0.04706673842841769,
+    "precision": -0.002919933928446028
+   },
+   "ci": {
+    "coverage": [
+     -0.09897569024663015,
+     0.0010250882977022777
+    ],
+    "precision": [
+     -0.01736207808699765,
+     0.010148188738022474
+    ]
+   },
+   "front": 480,
+   "points": 9,
+   "threshold": 0.4,
+   "cond": "C1",
+   "ref_cond": "C3",
+   "reading": "no measurable effect at this sample size"
+  },
+  {
+   "ref": "~/kaggle-data/vesuvius/tracereval/runs/A0_C3_f480_t0.4",
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C2_f480_t0.4",
+   "pairs": 40,
+   "ref_only": 0,
+   "ref_metrics": {
+    "coverage": 0.6021259418729817,
+    "precision": 0.9607110179438842,
+    "real_switches": 25,
+    "n": 40
+   },
+   "run_metrics": {
+    "coverage": 0.5108091137423753,
+    "precision": 0.9400601937953719,
+    "real_switches": 28,
+    "n": 40
+   },
+   "change": {
+    "coverage": -0.09131682813060649,
+    "precision": -0.02065082414851238
+   },
+   "ci": {
+    "coverage": [
+     -0.17444880052098855,
+     -0.024791702406597647
+    ],
+    "precision": [
+     -0.05444889537280381,
+     0.009557889119825278
+    ]
+   },
+   "front": 480,
+   "points": 9,
+   "threshold": 0.4,
+   "cond": "C2",
+   "ref_cond": "C3",
+   "reading": "resample"
+  },
+  {
+   "ref": "~/kaggle-data/vesuvius/tracereval/runs/A0_C0_f480_t0.4",
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C1_f480_t0.4",
+   "pairs": 40,
+   "ref_only": 0,
+   "ref_metrics": {
+    "coverage": 0.6366254036598493,
+    "precision": 0.96898976891537,
+    "real_switches": 26,
+    "n": 40
+   },
+   "run_metrics": {
+    "coverage": 0.555059203444564,
+    "precision": 0.9577910840154382,
+    "real_switches": 25,
+    "n": 40
+   },
+   "change": {
+    "coverage": -0.08156620021528527,
+    "precision": -0.01119868489993181
+   },
+   "ci": {
+    "coverage": [
+     -0.14525994962613947,
+     -0.02384430980593391
+    ],
+    "precision": [
+     -0.035038254680181034,
+     0.008319036181963616
+    ]
+   },
+   "front": 480,
+   "points": 9,
+   "threshold": 0.4,
+   "cond": "C1",
+   "ref_cond": "C0"
+  },
+  {
+   "ref": "~/kaggle-data/vesuvius/tracereval/runs/A0_C0_f480_t0.4",
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C2_f480_t0.4",
+   "pairs": 40,
+   "ref_only": 0,
+   "ref_metrics": {
+    "coverage": 0.6366254036598493,
+    "precision": 0.96898976891537,
+    "real_switches": 26,
+    "n": 40
+   },
+   "run_metrics": {
+    "coverage": 0.5108091137423753,
+    "precision": 0.9400601937953719,
+    "real_switches": 28,
+    "n": 40
+   },
+   "change": {
+    "coverage": -0.12581628991747407,
+    "precision": -0.028929575119998163
+   },
+   "ci": {
+    "coverage": [
+     -0.22428420035503574,
+     -0.043140188089765684
+    ],
+    "precision": [
+     -0.06982741651074946,
+     0.004041031095083146
+    ]
+   },
+   "front": 480,
+   "points": 9,
+   "threshold": 0.4,
+   "cond": "C2",
+   "ref_cond": "C0"
+  },
+  {
+   "ref": "~/kaggle-data/vesuvius/tracereval/runs/A0_C0_f480_t0.3",
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C3_f480_t0.3",
+   "pairs": 40,
+   "ref_only": 0,
+   "ref_metrics": {
+    "coverage": 0.7530678148546824,
+    "precision": 0.9087519885838765,
+    "real_switches": 32,
+    "n": 40
+   },
+   "run_metrics": {
+    "coverage": 0.7072120559741659,
+    "precision": 0.9166074283800668,
+    "real_switches": 28,
+    "n": 40
+   },
+   "change": {
+    "coverage": -0.04585575888051652,
+    "precision": 0.0078554397961903
+   },
+   "ci": {
+    "coverage": [
+     -0.08896274758573702,
+     -0.0028019749329147785
+    ],
+    "precision": [
+     -0.016540433488334484,
+     0.03441223946464986
+    ]
+   },
+   "front": 480,
+   "points": 9,
+   "threshold": 0.3,
+   "cond": "C3",
+   "ref_cond": "C0"
+  },
+  {
+   "ref": "~/kaggle-data/vesuvius/tracereval/runs/A0_C3_f480_t0.3",
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C1_f480_t0.3",
+   "pairs": 40,
+   "ref_only": 0,
+   "ref_metrics": {
+    "coverage": 0.7072120559741659,
+    "precision": 0.9166074283800668,
+    "real_switches": 28,
+    "n": 40
+   },
+   "run_metrics": {
+    "coverage": 0.6619393613204162,
+    "precision": 0.9186860849016568,
+    "real_switches": 31,
+    "n": 40
+   },
+   "change": {
+    "coverage": -0.04527269465374972,
+    "precision": 0.0020786565215900055
+   },
+   "ci": {
+    "coverage": [
+     -0.08980635084600974,
+     -0.009562871353725938
+    ],
+    "precision": [
+     -0.025450927875803685,
+     0.041734938874533466
+    ]
+   },
+   "front": 480,
+   "points": 9,
+   "threshold": 0.3,
+   "cond": "C1",
+   "ref_cond": "C3",
+   "reading": "resample"
+  },
+  {
+   "ref": "~/kaggle-data/vesuvius/tracereval/runs/A0_C3_f480_t0.3",
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C2_f480_t0.3",
+   "pairs": 40,
+   "ref_only": 0,
+   "ref_metrics": {
+    "coverage": 0.7072120559741659,
+    "precision": 0.9166074283800668,
+    "real_switches": 28,
+    "n": 40
+   },
+   "run_metrics": {
+    "coverage": 0.6807274533524466,
+    "precision": 0.8813964597772983,
+    "real_switches": 33,
+    "n": 40
+   },
+   "change": {
+    "coverage": -0.026484602621719366,
+    "precision": -0.03521096860276851
+   },
+   "ci": {
+    "coverage": [
+     -0.0870400111861282,
+     0.029895743324201866
+    ],
+    "precision": [
+     -0.062357317955595196,
+     -0.011861223393095595
+    ]
+   },
+   "front": 480,
+   "points": 9,
+   "threshold": 0.3,
+   "cond": "C2",
+   "ref_cond": "C3",
+   "reading": "resample"
+  },
+  {
+   "ref": "~/kaggle-data/vesuvius/tracereval/runs/A0_C0_f480_t0.3",
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C1_f480_t0.3",
+   "pairs": 40,
+   "ref_only": 0,
+   "ref_metrics": {
+    "coverage": 0.7530678148546824,
+    "precision": 0.9087519885838765,
+    "real_switches": 32,
+    "n": 40
+   },
+   "run_metrics": {
+    "coverage": 0.6619393613204162,
+    "precision": 0.9186860849016568,
+    "real_switches": 31,
+    "n": 40
+   },
+   "change": {
+    "coverage": -0.09112845353426624,
+    "precision": 0.009934096317780305
+   },
+   "ci": {
+    "coverage": [
+     -0.15111640698515055,
+     -0.034326401516319
+    ],
+    "precision": [
+     -0.02561600118632741,
+     0.054581721689769026
+    ]
+   },
+   "front": 480,
+   "points": 9,
+   "threshold": 0.3,
+   "cond": "C1",
+   "ref_cond": "C0"
+  },
+  {
+   "ref": "~/kaggle-data/vesuvius/tracereval/runs/A0_C0_f480_t0.3",
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C2_f480_t0.3",
+   "pairs": 40,
+   "ref_only": 0,
+   "ref_metrics": {
+    "coverage": 0.7530678148546824,
+    "precision": 0.9087519885838765,
+    "real_switches": 32,
+    "n": 40
+   },
+   "run_metrics": {
+    "coverage": 0.6807274533524466,
+    "precision": 0.8813964597772983,
+    "real_switches": 33,
+    "n": 40
+   },
+   "change": {
+    "coverage": -0.07234036150223588,
+    "precision": -0.02735552880657821
+   },
+   "ci": {
+    "coverage": [
+     -0.14356066552798352,
+     -0.0025785234635142917
+    ],
+    "precision": [
+     -0.05313350196204828,
+     0.0008813418869147108
+    ]
+   },
+   "front": 480,
+   "points": 9,
+   "threshold": 0.3,
+   "cond": "C2",
+   "ref_cond": "C0"
+  }
+ ]
+}

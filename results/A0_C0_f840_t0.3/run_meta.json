@@ -1,0 +1,316 @@
+{
+ "wrapper_args": {
+  "threads": 2,
+  "device": "mps",
+  "no_figures": true,
+  "resample": null
+ },
+ "benchmark_argv": [
+  "--checkpoints",
+  "~/kaggle-data/vesuvius/hf/sheet_tracer_7pt_gap60/last.pt",
+  "--names",
+  "tracer7",
+  "--patches-dir",
+  "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+  "--all-val",
+  "--max-per-patch",
+  "0",
+  "--min-valid",
+  "0.95",
+  "--seeds",
+  "40",
+  "--steps",
+  "60",
+  "--front",
+  "840",
+  "--threshold",
+  "0.3",
+  "--volume",
+  "~/kaggle-data/vesuvius/tracereval/volumes/PHerc0139_2399um_l2.zarr",
+  "--voxel-size",
+  "9.5960",
+  "--out",
+  "~/kaggle-data/vesuvius/tracereval/runs/A0_C0_f840_t0.3",
+  "--device",
+  "mps"
+ ],
+ "villa_commit": "fe64ea3bbf4f4f775f202beae2b87812f2208553",
+ "villa_src": "~/kaggle-data/vesuvius/tracereval/src_snapshots/villa_fe64ea3/src",
+ "checkpoint": "~/kaggle-data/vesuvius/hf/sheet_tracer_7pt_gap60/last.pt",
+ "checkpoint_sha256": "b1d133bcb8bf3595fb9f3676baca82ad64acae3010a55a65b1dda25b2cc853ec",
+ "hf_revision": "443497f0f584f6b3e414b4379c6ad4ed1d7faacc",
+ "python": "3.14.7",
+ "torch": "2.14.1",
+ "numpy": "2.5.4",
+ "platform": "macOS-27.2-arm64-arm-64bit-Mach-O",
+ "wall_seconds": 76.2,
+ "traces": [
+  {
+   "seconds": 2.532,
+   "steps_traced": 54,
+   "new_missing_chunks": {}
+  },
+  {
+   "seconds": 2.446,
+   "steps_traced": 60,
+   "new_missing_chunks": {}
+  },
+  {
+   "seconds": 1.34,
+   "steps_traced": 28,
+   "new_missing_chunks": {}
+  },
+  {
+   "seconds": 1.798,
+   "steps_traced": 40,
+   "new_missing_chunks": {}
+  },
+  {
+   "seconds": 2.432,
+   "steps_traced": 60,
+   "new_missing_chunks": {}
+  },
+  {
+   "seconds": 1.252,
+   "steps_traced": 29,
+   "new_missing_chunks": {}
+  },
+  {
+   "seconds": 1.134,
+   "steps_traced": 25,
+   "new_missing_chunks": {}
+  },
+  {
+   "seconds": 2.564,
+   "steps_traced": 60,
+   "new_missing_chunks": {}
+  },
+  {
+   "seconds": 1.282,
+   "steps_traced": 28,
+   "new_missing_chunks": {}
+  },
+  {
+   "seconds": 2.669,
+   "steps_traced": 60,
+   "new_missing_chunks": {}
+  },
+  {
+   "seconds": 0.77,
+   "steps_traced": 16,
+   "new_missing_chunks": {}
+  },
+  {
+   "seconds": 0.783,
+   "steps_traced": 16,
+   "new_missing_chunks": {}
+  },
+  {
+   "seconds": 2.558,
+   "steps_traced": 60,
+   "new_missing_chunks": {}
+  },
+  {
+   "seconds": 0.809,
+   "steps_traced": 19,
+   "new_missing_chunks": {}
+  },
+  {
+   "seconds": 2.517,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "absent": 1
+   }
+  },
+  {
+   "seconds": 2.659,
+   "steps_traced": 40,
+   "new_missing_chunks": {
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.696,
+   "steps_traced": 8,
+   "new_missing_chunks": {
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 2.391,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 1.795,
+   "steps_traced": 42,
+   "new_missing_chunks": {
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 2.434,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.758,
+   "steps_traced": 15,
+   "new_missing_chunks": {
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 2.601,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 2.488,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 2.594,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.91,
+   "steps_traced": 15,
+   "new_missing_chunks": {
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 1.03,
+   "steps_traced": 22,
+   "new_missing_chunks": {
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.373,
+   "steps_traced": 8,
+   "new_missing_chunks": {
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 2.716,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 2.659,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 2.563,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 2.553,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 1.684,
+   "steps_traced": 39,
+   "new_missing_chunks": {
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.322,
+   "steps_traced": 6,
+   "new_missing_chunks": {
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.667,
+   "steps_traced": 14,
+   "new_missing_chunks": {
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 2.252,
+   "steps_traced": 48,
+   "new_missing_chunks": {
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 2.59,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 2.757,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 2.791,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.568,
+   "steps_traced": 11,
+   "new_missing_chunks": {
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.856,
+   "steps_traced": 17,
+   "new_missing_chunks": {
+    "absent": 0
+   }
+  }
+ ],
+ "missing_chunks_total": {
+  "absent": 1
+ },
+ "missing_chunk_keys": {
+  "~/kaggle-data/vesuvius/zarr/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr/2": {
+   "absent": [
+    [
+     37,
+     15,
+     19
+    ]
+   ]
+  }
+ },
+ "peak_rss_gib": 1.53
+}

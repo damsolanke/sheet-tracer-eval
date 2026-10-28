@@ -1,0 +1,47 @@
+{
+ "cpu": "~/kaggle-data/vesuvius/tracereval/runs/A0_numerics_cpu",
+ "mps": "~/kaggle-data/vesuvius/tracereval/runs/A0_numerics_mps",
+ "seeds": [
+  {
+   "seed": 0,
+   "shape_cpu": [
+    21,
+    37
+   ],
+   "shape_mps": [
+    21,
+    37
+   ],
+   "flags": 777,
+   "identical": 777,
+   "kept_cpu": 777,
+   "kept_mps": 777
+  },
+  {
+   "seed": 1,
+   "shape_cpu": [
+    21,
+    31
+   ],
+   "shape_mps": [
+    21,
+    31
+   ],
+   "flags": 651,
+   "identical": 651,
+   "kept_cpu": 651,
+   "kept_mps": 651
+  }
+ ],
+ "identical_fraction": 1.0,
+ "coverage_cpu": 1.0,
+ "coverage_mps": 1.0,
+ "coverage_diff": 0.0,
+ "precision_cpu": 1.0,
+ "precision_mps": 1.0,
+ "rule": {
+  "min_identical": 0.99,
+  "max_coverage_diff": 0.01
+ },
+ "pass": true
+}

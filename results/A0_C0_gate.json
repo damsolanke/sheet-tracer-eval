@@ -1,0 +1,123 @@
+{
+ "decision": "NO-GO",
+ "reasons": [
+  "5 points: coverage 0.138 below 0.337",
+  "15 points: coverage 0.403 below 0.428"
+ ],
+ "rows": [
+  {
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C0_f240_t0.4",
+   "seeds": 40,
+   "traces": 40,
+   "front": 240.0,
+   "points": 5,
+   "steps": 60,
+   "coverage": 0.13797660216253815,
+   "precision": 0.9793150487929378,
+   "real_switches": 5,
+   "lost": 4,
+   "stopped": 40,
+   "kept": 0.14122845448644916,
+   "same_sheet": 0.9287655617944732,
+   "caught": 0.7444652622451101,
+   "dist_p50": 1.0492529121312228,
+   "ci": {
+    "coverage": [
+     0.08434453215194251,
+     0.19942390012583391
+    ],
+    "precision": [
+     0.9215726102714223,
+     0.9954075319011301
+    ]
+   },
+   "noncached_reads": 0,
+   "unlisted_reads": 0,
+   "wall_seconds": 16.8,
+   "team_coverage": 0.457,
+   "team_precision": 0.98,
+   "coverage_floor": 0.337,
+   "precision_floor": 0.94,
+   "integrity": true,
+   "coverage_ok": false,
+   "precision_ok": true,
+   "above_band": false
+  },
+  {
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C0_f480_t0.4",
+   "seeds": 40,
+   "traces": 40,
+   "front": 480.0,
+   "points": 9,
+   "steps": 60,
+   "coverage": 0.6366254036598493,
+   "precision": 0.96898976891537,
+   "real_switches": 26,
+   "lost": 9,
+   "stopped": 20,
+   "kept": 0.6560997488338715,
+   "same_sheet": 0.9388957843796868,
+   "caught": 0.5372981652496394,
+   "dist_p50": 1.0382902950048447,
+   "ci": {
+    "coverage": [
+     0.5292412046710175,
+     0.7345652712613686
+    ],
+    "precision": [
+     0.9504711402058813,
+     0.9838462351549142
+    ]
+   },
+   "noncached_reads": 0,
+   "unlisted_reads": 0,
+   "wall_seconds": 61.5,
+   "team_coverage": 0.605,
+   "team_precision": 0.98,
+   "coverage_floor": 0.485,
+   "precision_floor": 0.94,
+   "integrity": true,
+   "coverage_ok": true,
+   "precision_ok": true,
+   "above_band": false
+  },
+  {
+   "run": "~/kaggle-data/vesuvius/tracereval/runs/A0_C0_f840_t0.4",
+   "seeds": 40,
+   "traces": 40,
+   "front": 840.0,
+   "points": 15,
+   "steps": 60,
+   "coverage": 0.4032875206558451,
+   "precision": 0.967369810297925,
+   "real_switches": 28,
+   "lost": 11,
+   "stopped": 28,
+   "kept": 0.4175234487999983,
+   "same_sheet": 0.8738298127118703,
+   "caught": 0.8132288675485787,
+   "dist_p50": 1.094061905145645,
+   "ci": {
+    "coverage": [
+     0.3040504141005199,
+     0.5035790169276194
+    ],
+    "precision": [
+     0.9494850221551708,
+     0.9809347459962152
+    ]
+   },
+   "noncached_reads": 0,
+   "unlisted_reads": 0,
+   "wall_seconds": 64.1,
+   "team_coverage": 0.548,
+   "team_precision": 0.957,
+   "coverage_floor": 0.428,
+   "precision_floor": 0.917,
+   "integrity": true,
+   "coverage_ok": false,
+   "precision_ok": true,
+   "above_band": false
+  }
+ ]
+}
