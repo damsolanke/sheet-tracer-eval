@@ -8,6 +8,8 @@ Everything after ``--`` goes to ``benchmark.main`` as is. Around it this wrapper
 * optionally resamples the volume (``--voxel-um``, ``tracereval.resample``) so one model voxel spans another
   physical size;
 * optionally replaces the per-seed figures (they show CT) with nothing (``--no-figures``);
+* optionally traces a seed row longer than N points as overlapping N-point pieces (``--piece-points N``,
+  ``--piece-stride S``; ``tracereval.pieces``), each piece with villa's own ``trace``;
 * writes ``run_meta.json`` next to ``report.json``: arguments, commits, checkpoint hash, package versions, device,
   per-trace wall time and chunk misses, peak memory.
 
@@ -37,6 +39,8 @@ def main(argv=None):
     ap.add_argument('--device', default='cpu', help='cpu or mps; passed to the benchmark as --device')
     ap.add_argument('--no-figures', action='store_true')
     ap.add_argument('--resample', help='JSON of tracereval.resample.ResampleSpec (affine + voxel size)')
+    ap.add_argument('--piece-points', type=int, help='trace rows longer than this as overlapping pieces (off by default)')
+    ap.add_argument('--piece-stride', type=int, default=2, help='with --piece-points: a piece starts every S points')
     args = ap.parse_args(ours)
 
     from tracereval import env
@@ -53,6 +57,10 @@ def main(argv=None):
         resample.install(json.loads(Path(args.resample).read_text()))
     if args.no_figures:
         benchmark.seed_figure = lambda *a, **k: None
+
+    if args.piece_points:
+        from tracereval import pieces
+        benchmark.trace = pieces.piece_trace(benchmark.trace, args.piece_points, args.piece_stride)
 
     traces = []
     original_trace = benchmark.trace
