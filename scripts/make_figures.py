@@ -126,7 +126,48 @@ def figure_threshold() -> Path:
     return out
 
 
+STOCK, PIECES = '#2a78d6', '#eb6834'
+
+
+def figure_long_rows() -> Path:
+    """Coverage by seed-row length at threshold 0.4: villa's trace against 7-point pieces (README section 7)."""
+    import sys
+    sys.path.insert(0, str(ROOT))
+    from tracereval import analyze
+    cov = lambda run: analyze.pooled(analyze.load(run)['traces'])['coverage']
+    rows = {POINTS[f]: (cov(RESULTS/f'A0_C0_f{f}_t0.4'), cov(RESULTS/'long_rows'/f'A0_C0_f{f}_t0.4_pieces7s2'), True)
+            for f in (360, 480, 840)}
+    lengths = json.loads((RESULTS/'long_rows'/'A0_pieces_table.json').read_text())['exploratory_lengths']
+    for n, key in ((13, '13_all'), (21, '21_clean')):
+        rows[n] = (lengths[key]['stock']['coverage'], lengths[key]['pieces']['coverage'], False)
+    xs = sorted(rows)
+    fig, ax = plt.subplots(figsize=(6.4, 3.9))
+    for i, (name, color) in enumerate((('villa trace', STOCK), ('7-point pieces', PIECES))):
+        ys = [rows[x][i] for x in xs]
+        ax.plot(xs, ys, color=color, lw=1.6, zorder=2, solid_capstyle='round', solid_joinstyle='round')
+        for x, y in zip(xs, ys):
+            filled = rows[x][2]
+            ax.plot(x, y, 'o', ms=8, zorder=3, color=color, mfc=color if filled else SURFACE,
+                    mec=SURFACE if filled else color, mew=1.4 if filled else 1.6)
+        ax.annotate(name, (xs[-1], ys[-1]), xytext=(8, 0), textcoords='offset points', va='center', ha='left',
+                    color=INK2, fontsize=8.5, annotation_clip=False)
+    ax.set(xlim=(6, 22), ylim=(0, .8), xlabel='Seed-row length (points)', ylabel='Coverage (mean over 60 steps)')
+    ax.set_xticks(xs)
+    ax.set_title('Coverage by seed-row length at threshold 0.4')
+    handles = [Line2D([], [], color=STOCK, lw=1.6, label='villa trace'),
+               Line2D([], [], color=PIECES, lw=1.6, label='7-point pieces'),
+               Line2D([], [], ls='', marker='o', ms=8, color=MUTED, mec=SURFACE, mew=1.4, label='released test seeds (40)'),
+               Line2D([], [], ls='', marker='o', ms=8, color=MUTED, mfc=SURFACE, mew=1.6,
+                      label='new windows, exploratory (40; 27 at 21 points)')]
+    ax.legend(handles=handles, loc='lower left', fontsize=8.5, labelcolor=INK2, handlelength=1.6)
+    fig.tight_layout(rect=(0, 0, .9, 1))
+    out = FIGURES/'fig3_long_rows.png'
+    fig.savefig(out, dpi=170, metadata={'Software': None})
+    plt.close(fig)
+    return out
+
+
 if __name__ == '__main__':
     FIGURES.mkdir(exist_ok=True)
-    for path in (figure_steps(), figure_threshold()):
+    for path in (figure_steps(), figure_threshold(), figure_long_rows()):
         print(path.relative_to(ROOT), f'{path.stat().st_size/1024:.0f} KiB')

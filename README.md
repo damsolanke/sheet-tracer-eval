@@ -184,7 +184,7 @@ python -m tracereval.c123_table --runs-dir RUNS --out RUNS/A0_C123_table.json
 
 The tolerance check of section 4 runs `python -m tracereval.rescore_tol RUN --tolerance T` on each C1 run (T = 6.1698) and each C2 run (T = 6.6854). `RUNS` is `$TRACEREVAL_DATA/runs`. Each run folder holds villa's `report.json` and the traces as tifxyz, plus `run_meta.json` (arguments, commits, chunk reads) and `per_trace.json` (the counts behind every interval).
 
-Here, `results/` holds `report.json`, `run_meta.json` and `per_trace.json` for all 24 runs (without the tifxyz traces) and the three tables. It also holds the checks quoted in the text: `per_trace_tol*.json` and `A0_C123_tolerance_sensitivity.json` (the tolerance check of section 4), `A0_numerics_check.json` and `A0_numerics_C2_check.json` (MPS against CPU), and `affine_check_slab.json` (the registration residuals). `python -m pytest tests` rebuilds the tables from those counts and compares every number; `python scripts/make_figures.py` redraws both figures.
+Here, `results/` holds `report.json`, `run_meta.json` and `per_trace.json` for all 24 runs (without the tifxyz traces) and the three tables. It also holds the checks quoted in the text: `per_trace_tol*.json` and `A0_C123_tolerance_sensitivity.json` (the tolerance check of section 4), `A0_numerics_check.json` and `A0_numerics_C2_check.json` (MPS against CPU), and `affine_check_slab.json` (the registration residuals). `python -m pytest tests` rebuilds the tables from those counts and compares every number; `python scripts/make_figures.py` redraws all three figures.
 
 ## 7. Long seed rows: trace them as overlapping 7-point pieces
 
@@ -199,6 +199,8 @@ I chose the stride on 40 tuning windows at 15 points, all disjoint from the test
 | Fresh windows | 37 | 0.408 to 0.538 | +0.130 [+0.062, +0.207] | -0.008 | 33 to 35 |
 
 Every rule of the plan holds: the pooled interval lies above zero, both parts gain on their own, precision is level, and the switch count stays inside its limit (61 plus 10 % of the pairs). Seven-point rows pass through the wrapper unchanged, as they should (its `per_trace.json` equals the released run's), and at 9 points the change is within noise (-0.012 [-0.063, +0.034]). Reported only: at threshold 0.3, 15-point coverage rises from 0.560 to 0.744 for 0.038 precision.
+
+![Line chart of coverage at threshold 0.4 against seed-row length from 7 to 21 points: villa's trace falls from 0.64 at 9 points to 0.12 at 21, while tracing in 7-point pieces stays between 0.56 and 0.63](figures/fig3_long_rows.png)
 
 After the decision I looked at two more row lengths, 40 windows each from the benchmark's own draw. They are exploratory:
 
