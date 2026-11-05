@@ -1,0 +1,600 @@
+{
+ "wrapper_args": {
+  "threads": 2,
+  "device": "mps",
+  "no_figures": true,
+  "resample": null
+ },
+ "benchmark_argv": [
+  "--checkpoints",
+  "~/kaggle-data/vesuvius/hf/sheet_tracer_7pt_gap60/last.pt",
+  "--names",
+  "tracer7",
+  "--patches-dir",
+  "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+  "--all-val",
+  "--max-per-patch",
+  "0",
+  "--min-valid",
+  "0.95",
+  "--seeds",
+  "40",
+  "--steps",
+  "60",
+  "--front",
+  "840",
+  "--threshold",
+  "0.4",
+  "--volume",
+  "~/kaggle-data/vesuvius/tracereval/volumes/PHerc0139_2399um_l2.zarr",
+  "--voxel-size",
+  "9.5960",
+  "--out",
+  "~/kaggle-data/vesuvius/stoprule/runs/TUNE_f840_stock_t0.4",
+  "--seeds-from",
+  "~/kaggle-data/vesuvius/stoprule/pieces/tune_f840.json",
+  "--device",
+  "mps"
+ ],
+ "villa_commit": "fe64ea3bbf4f4f775f202beae2b87812f2208553",
+ "villa_src": "~/kaggle-data/vesuvius/stoprule/villa_fe64ea3_stoprule/src",
+ "checkpoint": "~/kaggle-data/vesuvius/hf/sheet_tracer_7pt_gap60/last.pt",
+ "checkpoint_sha256": "b1d133bcb8bf3595fb9f3676baca82ad64acae3010a55a65b1dda25b2cc853ec",
+ "hf_revision": "443497f0f584f6b3e414b4379c6ad4ed1d7faacc",
+ "python": "3.14.7",
+ "torch": "2.14.1",
+ "numpy": "2.5.4",
+ "platform": "macOS-27.2-arm64-arm-64bit-Mach-O",
+ "wall_seconds": 73.9,
+ "traces": [
+  {
+   "seconds": 2.473,
+   "steps_traced": 60,
+   "new_missing_chunks": {}
+  },
+  {
+   "seconds": 2.477,
+   "steps_traced": 60,
+   "new_missing_chunks": {}
+  },
+  {
+   "seconds": 0.875,
+   "steps_traced": 19,
+   "new_missing_chunks": {}
+  },
+  {
+   "seconds": 1.035,
+   "steps_traced": 21,
+   "new_missing_chunks": {
+    "noncached": 3
+   }
+  },
+  {
+   "seconds": 1.361,
+   "steps_traced": 29,
+   "new_missing_chunks": {
+    "noncached": 0
+   }
+  },
+  {
+   "seconds": 0.819,
+   "steps_traced": 19,
+   "new_missing_chunks": {
+    "noncached": 5
+   }
+  },
+  {
+   "seconds": 2.472,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "noncached": 0
+   }
+  },
+  {
+   "seconds": 1.721,
+   "steps_traced": 40,
+   "new_missing_chunks": {
+    "noncached": 0
+   }
+  },
+  {
+   "seconds": 2.427,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "noncached": 0
+   }
+  },
+  {
+   "seconds": 2.462,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "noncached": 0
+   }
+  },
+  {
+   "seconds": 2.479,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "noncached": 0
+   }
+  },
+  {
+   "seconds": 2.667,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "noncached": 0
+   }
+  },
+  {
+   "seconds": 2.398,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "noncached": 0
+   }
+  },
+  {
+   "seconds": 2.71,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 17
+   }
+  },
+  {
+   "seconds": 2.463,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.828,
+   "steps_traced": 18,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 2.358,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 2.356,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 2.393,
+   "steps_traced": 51,
+   "new_missing_chunks": {
+    "noncached": 11,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 2.452,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 2.567,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.802,
+   "steps_traced": 17,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.326,
+   "steps_traced": 7,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 2.429,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 2.331,
+   "steps_traced": 56,
+   "new_missing_chunks": {
+    "noncached": 10,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.235,
+   "steps_traced": 4,
+   "new_missing_chunks": {
+    "noncached": 1,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 2.367,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 1.051,
+   "steps_traced": 25,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 2.472,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 1.206,
+   "steps_traced": 28,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.665,
+   "steps_traced": 13,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 1.024,
+   "steps_traced": 23,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 2.399,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 1.014,
+   "steps_traced": 22,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.544,
+   "steps_traced": 12,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.549,
+   "steps_traced": 11,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 1.517,
+   "steps_traced": 35,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 1.94,
+   "steps_traced": 45,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 1.292,
+   "steps_traced": 29,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 2.563,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  }
+ ],
+ "missing_chunks_total": {
+  "noncached": 30,
+  "absent": 17
+ },
+ "missing_chunk_keys": {
+  "~/kaggle-data/vesuvius/zarr/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr/2": {
+   "noncached": [
+    [
+     35,
+     33,
+     14
+    ],
+    [
+     36,
+     33,
+     14
+    ],
+    [
+     36,
+     35,
+     31
+    ],
+    [
+     36,
+     35,
+     32
+    ],
+    [
+     37,
+     33,
+     14
+    ],
+    [
+     37,
+     35,
+     31
+    ],
+    [
+     37,
+     35,
+     32
+    ],
+    [
+     38,
+     18,
+     39
+    ],
+    [
+     38,
+     19,
+     40
+    ],
+    [
+     38,
+     33,
+     14
+    ],
+    [
+     38,
+     34,
+     14
+    ],
+    [
+     38,
+     34,
+     15
+    ],
+    [
+     38,
+     35,
+     31
+    ],
+    [
+     39,
+     18,
+     39
+    ],
+    [
+     39,
+     19,
+     40
+    ],
+    [
+     39,
+     33,
+     14
+    ],
+    [
+     39,
+     34,
+     14
+    ],
+    [
+     39,
+     34,
+     15
+    ],
+    [
+     40,
+     19,
+     40
+    ],
+    [
+     40,
+     33,
+     14
+    ],
+    [
+     41,
+     19,
+     40
+    ],
+    [
+     41,
+     32,
+     14
+    ],
+    [
+     41,
+     33,
+     14
+    ],
+    [
+     41,
+     33,
+     15
+    ],
+    [
+     42,
+     19,
+     40
+    ],
+    [
+     43,
+     19,
+     40
+    ],
+    [
+     44,
+     19,
+     40
+    ],
+    [
+     45,
+     19,
+     40
+    ],
+    [
+     46,
+     19,
+     40
+    ],
+    [
+     46,
+     26,
+     38
+    ]
+   ],
+   "absent": [
+    [
+     34,
+     15,
+     18
+    ],
+    [
+     34,
+     15,
+     19
+    ],
+    [
+     35,
+     15,
+     18
+    ],
+    [
+     35,
+     15,
+     19
+    ],
+    [
+     35,
+     16,
+     16
+    ],
+    [
+     36,
+     15,
+     18
+    ],
+    [
+     36,
+     15,
+     19
+    ],
+    [
+     36,
+     16,
+     16
+    ],
+    [
+     36,
+     17,
+     15
+    ],
+    [
+     37,
+     15,
+     18
+    ],
+    [
+     37,
+     15,
+     19
+    ],
+    [
+     37,
+     16,
+     16
+    ],
+    [
+     38,
+     15,
+     18
+    ],
+    [
+     38,
+     16,
+     16
+    ],
+    [
+     39,
+     15,
+     18
+    ],
+    [
+     39,
+     16,
+     16
+    ],
+    [
+     40,
+     15,
+     18
+    ]
+   ]
+  }
+ },
+ "peak_rss_gib": 1.43
+}

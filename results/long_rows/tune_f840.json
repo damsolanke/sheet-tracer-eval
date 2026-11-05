@@ -1,0 +1,614 @@
+{
+ "seeds": [
+  {
+   "patch": "20260108000000-w041_2026010816",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": 1,
+   "sign_v": -1,
+   "anchor": [
+    232.23890000239845,
+    383.2547991167478
+   ]
+  },
+  {
+   "patch": "20251226000000-w055_2025122611",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": 1,
+   "sign_v": -1,
+   "anchor": [
+    144.13905617581776,
+    309.3526045581969
+   ]
+  },
+  {
+   "patch": "20260303000000-w034_2026030317",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": -1,
+   "sign_v": 1,
+   "anchor": [
+    1188.533247344745,
+    77.02256021696226
+   ]
+  },
+  {
+   "patch": "20260115000001-w056_2026011514",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 0,
+   "sign_u": 1,
+   "sign_v": 1,
+   "anchor": [
+    60.573394323307284,
+    1119.7322069404918
+   ]
+  },
+  {
+   "patch": "20260112000000-w043_2026011217",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 0,
+   "sign_u": -1,
+   "sign_v": -1,
+   "anchor": [
+    413.4266883070313,
+    643.6439925610579
+   ]
+  },
+  {
+   "patch": "20250223000000-w059_2025022312",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 0,
+   "sign_u": 1,
+   "sign_v": 1,
+   "anchor": [
+    69.22106158908286,
+    798.3299189500523
+   ]
+  },
+  {
+   "patch": "20260325000000-w046_20260325",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 0,
+   "sign_u": -1,
+   "sign_v": 1,
+   "anchor": [
+    372.03255367290234,
+    819.7589282660945
+   ]
+  },
+  {
+   "patch": "20260108000000-w041_2026010816",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": 1,
+   "sign_v": 1,
+   "anchor": [
+    907.571419156588,
+    40.580199723259355
+   ]
+  },
+  {
+   "patch": "20260115000000-w044_2026011522",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": -1,
+   "sign_v": -1,
+   "anchor": [
+    806.9072702090937,
+    295.97823351695433
+   ]
+  },
+  {
+   "patch": "20260115000000-w044_2026011522",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": 1,
+   "sign_v": 1,
+   "anchor": [
+    648.3340051651355,
+    129.76871507815352
+   ]
+  },
+  {
+   "patch": "20260112000000-w043_2026011217",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 0,
+   "sign_u": 1,
+   "sign_v": -1,
+   "anchor": [
+    88.10294893686572,
+    806.4085124229996
+   ]
+  },
+  {
+   "patch": "20260325000000-w046_20260325",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": 1,
+   "sign_v": -1,
+   "anchor": [
+    1288.8122603892532,
+    270.19263707372187
+   ]
+  },
+  {
+   "patch": "20260126000000-w045_2026012619",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": 1,
+   "sign_v": 1,
+   "anchor": [
+    1194.9509499042492,
+    72.30148829546674
+   ]
+  },
+  {
+   "patch": "20260210000000-w058_2026021020",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": -1,
+   "sign_v": 1,
+   "anchor": [
+    1675.362841380656,
+    63.65692333113704
+   ]
+  },
+  {
+   "patch": "20260306000001-w051_2026030600",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": -1,
+   "sign_v": 1,
+   "anchor": [
+    242.92500977122137,
+    188.61467917066412
+   ]
+  },
+  {
+   "patch": "20260108000000-w041_2026010816",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": -1,
+   "sign_v": 1,
+   "anchor": [
+    571.6984236442082,
+    98.28679876573763
+   ]
+  },
+  {
+   "patch": "20260302000000-w039_2026030210",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": -1,
+   "sign_v": -1,
+   "anchor": [
+    821.1031063822957,
+    417.268858325503
+   ]
+  },
+  {
+   "patch": "20260306000001-w051_2026030600",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": -1,
+   "sign_v": -1,
+   "anchor": [
+    477.29146822265596,
+    362.1125507640168
+   ]
+  },
+  {
+   "patch": "20260210000000-w058_2026021020",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 0,
+   "sign_u": 1,
+   "sign_v": 1,
+   "anchor": [
+    128.79027143597028,
+    327.233370625464
+   ]
+  },
+  {
+   "patch": "20260112000000-w043_2026011217",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": 1,
+   "sign_v": -1,
+   "anchor": [
+    225.0691404574246,
+    223.92813573182002
+   ]
+  },
+  {
+   "patch": "20250108000003-w028_2025010836",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": 1,
+   "sign_v": -1,
+   "anchor": [
+    746.28780428921,
+    317.3902144852605
+   ]
+  },
+  {
+   "patch": "20250108000001-w026_2025010854",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": -1,
+   "sign_v": -1,
+   "anchor": [
+    392.48649532231684,
+    367.3420696704748
+   ]
+  },
+  {
+   "patch": "20260219000000-w033_2026021913",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": 1,
+   "sign_v": 1,
+   "anchor": [
+    251.10921177848783,
+    111.21032970712338
+   ]
+  },
+  {
+   "patch": "20260215000000-w024_2026021572",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": -1,
+   "sign_v": 1,
+   "anchor": [
+    460.191383053615,
+    39.7727049410486
+   ]
+  },
+  {
+   "patch": "20260127000000-w057_2026012713",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 0,
+   "sign_u": 1,
+   "sign_v": -1,
+   "anchor": [
+    132.03522202908863,
+    1267.4487721843827
+   ]
+  },
+  {
+   "patch": "20260115000001-w056_2026011514",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": 1,
+   "sign_v": 1,
+   "anchor": [
+    537.1514393442305,
+    226.96182471550694
+   ]
+  },
+  {
+   "patch": "20260115000001-w056_2026011514",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 0,
+   "sign_u": 1,
+   "sign_v": -1,
+   "anchor": [
+    27.785584864569877,
+    989.8783950744291
+   ]
+  },
+  {
+   "patch": "20250108000001-w026_2025010854",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 0,
+   "sign_u": -1,
+   "sign_v": 1,
+   "anchor": [
+    244.860056315619,
+    381.5004358199426
+   ]
+  },
+  {
+   "patch": "20260210000000-w058_2026021020",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": -1,
+   "sign_v": 1,
+   "anchor": [
+    1466.7380314479972,
+    71.98772056635109
+   ]
+  },
+  {
+   "patch": "20260206000001-w047_2026020613",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": 1,
+   "sign_v": 1,
+   "anchor": [
+    555.6674485877815,
+    131.5744325250698
+   ]
+  },
+  {
+   "patch": "20260115000001-w056_2026011514",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 0,
+   "sign_u": 1,
+   "sign_v": 1,
+   "anchor": [
+    62.35959731550537,
+    1144.4139310069618
+   ]
+  },
+  {
+   "patch": "20260219000001-w048_2026021912",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": -1,
+   "sign_v": 1,
+   "anchor": [
+    737.4899836865633,
+    238.25796563340268
+   ]
+  },
+  {
+   "patch": "20260115000000-w044_2026011522",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 0,
+   "sign_u": 1,
+   "sign_v": -1,
+   "anchor": [
+    145.81156092353376,
+    851.3717605019211
+   ]
+  },
+  {
+   "patch": "20260203000000-w032_2026020303",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": 1,
+   "sign_v": -1,
+   "anchor": [
+    854.2925318315707,
+    369.3382431390432
+   ]
+  },
+  {
+   "patch": "20260126000000-w045_2026012619",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": -1,
+   "sign_v": -1,
+   "anchor": [
+    1478.3348853177117,
+    328.8417935251627
+   ]
+  },
+  {
+   "patch": "20260210000000-w058_2026021020",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": -1,
+   "sign_v": -1,
+   "anchor": [
+    835.1881772382372,
+    271.00831026852927
+   ]
+  },
+  {
+   "patch": "20251226000000-w055_2025122611",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": -1,
+   "sign_v": 1,
+   "anchor": [
+    1398.9869551892803,
+    94.79111829543336
+   ]
+  },
+  {
+   "patch": "20250108000003-w028_2025010836",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": 1,
+   "sign_v": 1,
+   "anchor": [
+    962.7859411180182,
+    148.780805177837
+   ]
+  },
+  {
+   "patch": "20260306000000-w038_2026030608",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 0,
+   "sign_u": 1,
+   "sign_v": -1,
+   "anchor": [
+    42.38389034648234,
+    1132.5337794520506
+   ]
+  },
+  {
+   "patch": "20260206000000-w042_2026020613",
+   "root": "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+   "axis": 1,
+   "sign_u": 1,
+   "sign_v": 1,
+   "anchor": [
+    1158.8300142068852,
+    110.30574256078232
+   ]
+  }
+ ],
+ "generators": [
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   1,
+   7
+  ]
+ ],
+ "rule": "GT window disjoint from every test window on the same patch, at most 4 per patch",
+ "stats": {
+  "drawn": 61,
+  "none": 0,
+  "overlap": 21,
+  "repeat": 0,
+  "patch_full": 0
+ }
+}

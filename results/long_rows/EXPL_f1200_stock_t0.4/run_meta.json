@@ -1,0 +1,1193 @@
+{
+ "wrapper_args": {
+  "threads": 2,
+  "device": "mps",
+  "no_figures": true,
+  "resample": null
+ },
+ "benchmark_argv": [
+  "--checkpoints",
+  "~/kaggle-data/vesuvius/hf/sheet_tracer_7pt_gap60/last.pt",
+  "--names",
+  "tracer7",
+  "--patches-dir",
+  "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+  "--all-val",
+  "--max-per-patch",
+  "0",
+  "--min-valid",
+  "0.95",
+  "--seeds",
+  "40",
+  "--steps",
+  "60",
+  "--front",
+  "1200",
+  "--threshold",
+  "0.4",
+  "--volume",
+  "~/kaggle-data/vesuvius/tracereval/volumes/PHerc0139_2399um_l2.zarr",
+  "--voxel-size",
+  "9.5960",
+  "--out",
+  "~/kaggle-data/vesuvius/stoprule/runs/EXPL_f1200_stock_t0.4",
+  "--device",
+  "mps"
+ ],
+ "villa_commit": "fe64ea3bbf4f4f775f202beae2b87812f2208553",
+ "villa_src": "~/kaggle-data/vesuvius/stoprule/villa_fe64ea3_stoprule/src",
+ "checkpoint": "~/kaggle-data/vesuvius/hf/sheet_tracer_7pt_gap60/last.pt",
+ "checkpoint_sha256": "b1d133bcb8bf3595fb9f3676baca82ad64acae3010a55a65b1dda25b2cc853ec",
+ "hf_revision": "443497f0f584f6b3e414b4379c6ad4ed1d7faacc",
+ "python": "3.14.7",
+ "torch": "2.14.1",
+ "numpy": "2.5.4",
+ "platform": "macOS-27.2-arm64-arm-64bit-Mach-O",
+ "wall_seconds": 56.2,
+ "traces": [
+  {
+   "seconds": 1.569,
+   "steps_traced": 20,
+   "new_missing_chunks": {
+    "noncached": 6
+   }
+  },
+  {
+   "seconds": 1.764,
+   "steps_traced": 27,
+   "new_missing_chunks": {
+    "noncached": 0
+   }
+  },
+  {
+   "seconds": 1.498,
+   "steps_traced": 20,
+   "new_missing_chunks": {
+    "noncached": 12
+   }
+  },
+  {
+   "seconds": 2.364,
+   "steps_traced": 37,
+   "new_missing_chunks": {
+    "noncached": 0
+   }
+  },
+  {
+   "seconds": 1.159,
+   "steps_traced": 16,
+   "new_missing_chunks": {
+    "noncached": 0
+   }
+  },
+  {
+   "seconds": 1.198,
+   "steps_traced": 18,
+   "new_missing_chunks": {
+    "noncached": 0
+   }
+  },
+  {
+   "seconds": 1.622,
+   "steps_traced": 24,
+   "new_missing_chunks": {
+    "noncached": 4
+   }
+  },
+  {
+   "seconds": 2.24,
+   "steps_traced": 35,
+   "new_missing_chunks": {
+    "noncached": 0
+   }
+  },
+  {
+   "seconds": 1.86,
+   "steps_traced": 27,
+   "new_missing_chunks": {
+    "noncached": 0
+   }
+  },
+  {
+   "seconds": 1.605,
+   "steps_traced": 21,
+   "new_missing_chunks": {
+    "noncached": 8
+   }
+  },
+  {
+   "seconds": 0.767,
+   "steps_traced": 11,
+   "new_missing_chunks": {
+    "noncached": 0
+   }
+  },
+  {
+   "seconds": 1.406,
+   "steps_traced": 20,
+   "new_missing_chunks": {
+    "noncached": 0
+   }
+  },
+  {
+   "seconds": 1.759,
+   "steps_traced": 27,
+   "new_missing_chunks": {
+    "noncached": 3
+   }
+  },
+  {
+   "seconds": 0.382,
+   "steps_traced": 5,
+   "new_missing_chunks": {
+    "noncached": 0
+   }
+  },
+  {
+   "seconds": 1.215,
+   "steps_traced": 19,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 4
+   }
+  },
+  {
+   "seconds": 1.749,
+   "steps_traced": 26,
+   "new_missing_chunks": {
+    "noncached": 16,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.742,
+   "steps_traced": 11,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.674,
+   "steps_traced": 11,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.908,
+   "steps_traced": 14,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 1.337,
+   "steps_traced": 20,
+   "new_missing_chunks": {
+    "noncached": 2,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 1.607,
+   "steps_traced": 26,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 1.876,
+   "steps_traced": 32,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.891,
+   "steps_traced": 14,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.381,
+   "steps_traced": 5,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.124,
+   "steps_traced": 1,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.544,
+   "steps_traced": 8,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 3.33,
+   "steps_traced": 60,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.81,
+   "steps_traced": 12,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.884,
+   "steps_traced": 14,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.604,
+   "steps_traced": 8,
+   "new_missing_chunks": {
+    "noncached": 24,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 1.365,
+   "steps_traced": 21,
+   "new_missing_chunks": {
+    "noncached": 2,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 1.44,
+   "steps_traced": 22,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.647,
+   "steps_traced": 5,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 2.283,
+   "steps_traced": 31,
+   "new_missing_chunks": {
+    "noncached": 6,
+    "absent": 11
+   }
+  },
+  {
+   "seconds": 1.124,
+   "steps_traced": 18,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 1.468,
+   "steps_traced": 23,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 1.59,
+   "steps_traced": 23,
+   "new_missing_chunks": {
+    "noncached": 31,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 1.092,
+   "steps_traced": 15,
+   "new_missing_chunks": {
+    "noncached": 0,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.736,
+   "steps_traced": 9,
+   "new_missing_chunks": {
+    "noncached": 30,
+    "absent": 0
+   }
+  },
+  {
+   "seconds": 0.95,
+   "steps_traced": 15,
+   "new_missing_chunks": {
+    "noncached": 6,
+    "absent": 0
+   }
+  }
+ ],
+ "missing_chunks_total": {
+  "noncached": 150,
+  "absent": 15
+ },
+ "missing_chunk_keys": {
+  "~/kaggle-data/vesuvius/zarr/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr/2": {
+   "noncached": [
+    [
+     34,
+     22,
+     30
+    ],
+    [
+     34,
+     23,
+     30
+    ],
+    [
+     34,
+     23,
+     31
+    ],
+    [
+     34,
+     24,
+     30
+    ],
+    [
+     34,
+     24,
+     31
+    ],
+    [
+     34,
+     25,
+     22
+    ],
+    [
+     34,
+     25,
+     23
+    ],
+    [
+     34,
+     25,
+     24
+    ],
+    [
+     34,
+     25,
+     30
+    ],
+    [
+     34,
+     26,
+     24
+    ],
+    [
+     35,
+     22,
+     24
+    ],
+    [
+     35,
+     22,
+     25
+    ],
+    [
+     35,
+     23,
+     30
+    ],
+    [
+     35,
+     23,
+     31
+    ],
+    [
+     35,
+     24,
+     30
+    ],
+    [
+     35,
+     24,
+     31
+    ],
+    [
+     35,
+     25,
+     24
+    ],
+    [
+     35,
+     26,
+     24
+    ],
+    [
+     36,
+     22,
+     24
+    ],
+    [
+     36,
+     22,
+     25
+    ],
+    [
+     36,
+     23,
+     30
+    ],
+    [
+     36,
+     24,
+     30
+    ],
+    [
+     36,
+     25,
+     24
+    ],
+    [
+     36,
+     26,
+     24
+    ],
+    [
+     37,
+     22,
+     24
+    ],
+    [
+     37,
+     22,
+     25
+    ],
+    [
+     41,
+     28,
+     39
+    ],
+    [
+     41,
+     29,
+     39
+    ],
+    [
+     42,
+     27,
+     40
+    ],
+    [
+     42,
+     28,
+     39
+    ],
+    [
+     42,
+     28,
+     40
+    ],
+    [
+     42,
+     29,
+     39
+    ],
+    [
+     42,
+     29,
+     40
+    ],
+    [
+     42,
+     30,
+     38
+    ],
+    [
+     42,
+     30,
+     39
+    ],
+    [
+     42,
+     30,
+     40
+    ],
+    [
+     42,
+     34,
+     17
+    ],
+    [
+     43,
+     27,
+     40
+    ],
+    [
+     43,
+     28,
+     39
+    ],
+    [
+     43,
+     28,
+     40
+    ],
+    [
+     43,
+     29,
+     38
+    ],
+    [
+     43,
+     29,
+     39
+    ],
+    [
+     43,
+     29,
+     40
+    ],
+    [
+     43,
+     30,
+     36
+    ],
+    [
+     43,
+     30,
+     37
+    ],
+    [
+     43,
+     30,
+     38
+    ],
+    [
+     43,
+     30,
+     39
+    ],
+    [
+     43,
+     30,
+     40
+    ],
+    [
+     43,
+     34,
+     17
+    ],
+    [
+     44,
+     16,
+     15
+    ],
+    [
+     44,
+     18,
+     13
+    ],
+    [
+     44,
+     20,
+     25
+    ],
+    [
+     44,
+     21,
+     22
+    ],
+    [
+     44,
+     21,
+     23
+    ],
+    [
+     44,
+     21,
+     24
+    ],
+    [
+     44,
+     26,
+     40
+    ],
+    [
+     44,
+     27,
+     38
+    ],
+    [
+     44,
+     27,
+     39
+    ],
+    [
+     44,
+     27,
+     40
+    ],
+    [
+     44,
+     28,
+     37
+    ],
+    [
+     44,
+     28,
+     38
+    ],
+    [
+     44,
+     28,
+     39
+    ],
+    [
+     44,
+     28,
+     40
+    ],
+    [
+     44,
+     29,
+     36
+    ],
+    [
+     44,
+     29,
+     37
+    ],
+    [
+     44,
+     29,
+     38
+    ],
+    [
+     44,
+     29,
+     39
+    ],
+    [
+     44,
+     29,
+     40
+    ],
+    [
+     44,
+     30,
+     35
+    ],
+    [
+     44,
+     30,
+     36
+    ],
+    [
+     44,
+     30,
+     37
+    ],
+    [
+     44,
+     30,
+     38
+    ],
+    [
+     44,
+     30,
+     39
+    ],
+    [
+     44,
+     30,
+     40
+    ],
+    [
+     44,
+     32,
+     33
+    ],
+    [
+     44,
+     33,
+     32
+    ],
+    [
+     44,
+     33,
+     33
+    ],
+    [
+     44,
+     34,
+     31
+    ],
+    [
+     44,
+     34,
+     32
+    ],
+    [
+     44,
+     34,
+     33
+    ],
+    [
+     45,
+     16,
+     15
+    ],
+    [
+     45,
+     17,
+     14
+    ],
+    [
+     45,
+     20,
+     25
+    ],
+    [
+     45,
+     21,
+     22
+    ],
+    [
+     45,
+     21,
+     23
+    ],
+    [
+     45,
+     21,
+     24
+    ],
+    [
+     45,
+     21,
+     25
+    ],
+    [
+     45,
+     27,
+     38
+    ],
+    [
+     45,
+     28,
+     37
+    ],
+    [
+     45,
+     28,
+     38
+    ],
+    [
+     45,
+     29,
+     36
+    ],
+    [
+     45,
+     29,
+     37
+    ],
+    [
+     45,
+     29,
+     38
+    ],
+    [
+     45,
+     30,
+     35
+    ],
+    [
+     45,
+     30,
+     36
+    ],
+    [
+     45,
+     30,
+     37
+    ],
+    [
+     45,
+     30,
+     38
+    ],
+    [
+     45,
+     32,
+     33
+    ],
+    [
+     45,
+     33,
+     33
+    ],
+    [
+     45,
+     34,
+     31
+    ],
+    [
+     45,
+     34,
+     32
+    ],
+    [
+     45,
+     34,
+     33
+    ],
+    [
+     45,
+     35,
+     30
+    ],
+    [
+     45,
+     35,
+     31
+    ],
+    [
+     45,
+     35,
+     32
+    ],
+    [
+     45,
+     35,
+     33
+    ],
+    [
+     46,
+     16,
+     15
+    ],
+    [
+     46,
+     17,
+     14
+    ],
+    [
+     46,
+     20,
+     25
+    ],
+    [
+     46,
+     21,
+     22
+    ],
+    [
+     46,
+     21,
+     23
+    ],
+    [
+     46,
+     21,
+     24
+    ],
+    [
+     46,
+     21,
+     25
+    ],
+    [
+     46,
+     22,
+     22
+    ],
+    [
+     46,
+     22,
+     23
+    ],
+    [
+     46,
+     23,
+     23
+    ],
+    [
+     46,
+     26,
+     38
+    ],
+    [
+     46,
+     27,
+     38
+    ],
+    [
+     46,
+     28,
+     37
+    ],
+    [
+     46,
+     28,
+     38
+    ],
+    [
+     46,
+     29,
+     36
+    ],
+    [
+     46,
+     29,
+     37
+    ],
+    [
+     46,
+     29,
+     38
+    ],
+    [
+     46,
+     30,
+     35
+    ],
+    [
+     46,
+     30,
+     36
+    ],
+    [
+     46,
+     30,
+     37
+    ],
+    [
+     46,
+     30,
+     38
+    ],
+    [
+     46,
+     32,
+     33
+    ],
+    [
+     46,
+     33,
+     33
+    ],
+    [
+     46,
+     34,
+     31
+    ],
+    [
+     46,
+     34,
+     32
+    ],
+    [
+     46,
+     34,
+     33
+    ],
+    [
+     46,
+     35,
+     30
+    ],
+    [
+     46,
+     35,
+     31
+    ],
+    [
+     46,
+     35,
+     32
+    ],
+    [
+     46,
+     35,
+     33
+    ],
+    [
+     47,
+     20,
+     25
+    ],
+    [
+     47,
+     20,
+     26
+    ],
+    [
+     47,
+     20,
+     27
+    ],
+    [
+     47,
+     21,
+     22
+    ],
+    [
+     47,
+     21,
+     23
+    ],
+    [
+     47,
+     21,
+     24
+    ],
+    [
+     47,
+     21,
+     25
+    ],
+    [
+     47,
+     22,
+     22
+    ],
+    [
+     47,
+     22,
+     23
+    ],
+    [
+     47,
+     23,
+     23
+    ],
+    [
+     48,
+     20,
+     24
+    ],
+    [
+     48,
+     20,
+     25
+    ],
+    [
+     48,
+     20,
+     26
+    ],
+    [
+     48,
+     20,
+     27
+    ]
+   ],
+   "absent": [
+    [
+     36,
+     16,
+     16
+    ],
+    [
+     37,
+     16,
+     16
+    ],
+    [
+     38,
+     16,
+     16
+    ],
+    [
+     39,
+     16,
+     16
+    ],
+    [
+     44,
+     16,
+     13
+    ],
+    [
+     44,
+     16,
+     14
+    ],
+    [
+     44,
+     17,
+     13
+    ],
+    [
+     45,
+     16,
+     13
+    ],
+    [
+     45,
+     16,
+     14
+    ],
+    [
+     45,
+     17,
+     13
+    ],
+    [
+     45,
+     18,
+     13
+    ],
+    [
+     46,
+     16,
+     13
+    ],
+    [
+     46,
+     16,
+     14
+    ],
+    [
+     46,
+     17,
+     13
+    ],
+    [
+     46,
+     18,
+     13
+    ]
+   ]
+  }
+ },
+ "peak_rss_gib": 1.85
+}
