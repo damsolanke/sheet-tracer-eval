@@ -15,7 +15,7 @@ What I found:
 - **Threshold 0.3 beats the stored 0.5.** Going from 0.4 to 0.3, as villa's inference code suggests for this model, adds 0.10 to 0.16 coverage at every front size and costs 0.04 and 0.06 precision at 7 and 9 points.
 - **A different run produced the published held-out table**, one trained on 5 to 16-point fronts. Against it, this checkpoint lands within the plan's tolerance at 9 points and falls short on coverage at 5 and 15.
 - **Prize-eligible scans cost coverage.** On PHerc0139's 9.362 um scan, the protocol of 11 prize-eligible volumes, coverage drops by 0.03 to 0.08 even at the training voxel size. Reading that scan natively loses a further 0.03 to 0.05, with only one setting in four clear of noise. Presented at 8.64 um per voxel instead, the geometry of the other 11 eligible volumes, the scan loses 0.09 coverage against the resampled reading at 9 points and threshold 0.4, a loss that holds when rescored at equal micrometres. Its precision loss at 9 points and 0.3 is 0.035, about half of it from stricter scoring, and at 7 points resampling makes no measurable difference. These ran after the plan's gate had already said stop, so section 4 reports them as exploratory.
-- **Long seed rows can be traced in 7-point pieces.** The model was trained on 7-point fronts, and tracing a longer row as overlapping 7-point pieces raised 15-point coverage at 0.4 from 0.405 to 0.584 over 77 seed pairs (+0.179, interval +0.124 to +0.234) with precision level, under a plan saved before the test. Section 7 has the numbers, including a first look at 21-point rows, where the unchanged tracer falls to 0.12.
+- **Long seed rows can be traced in 7-point pieces.** The model was trained on 7-point fronts, and tracing a longer row as overlapping 7-point pieces raised 15-point coverage at 0.4 from 0.405 to 0.584 over 77 seed pairs (+0.179, interval +0.124 to +0.234) with precision level, under a plan saved before the test. Section 7 has the numbers, including a first look at 21-point rows, where the unchanged tracer falls to 0.12, and at the 9.362 um scan, where the 15-point gain holds (+0.214).
 
 What I would do with this:
 
@@ -202,14 +202,15 @@ Every rule of the plan holds: the pooled interval lies above zero, both parts ga
 
 ![Line chart of coverage at threshold 0.4 against seed-row length from 7 to 21 points: villa's trace falls from 0.64 at 9 points to 0.12 at 21, while tracing in 7-point pieces stays between 0.56 and 0.63](figures/fig3_long_rows.png)
 
-After the decision I looked at two more row lengths, 40 windows each from the benchmark's own draw. They are exploratory:
+After the decision I ran three more checks, all exploratory: two more row lengths (40 windows each from the benchmark's own draw), and the 40 released 15-point seeds on PHerc0139's 9.362 um scan resampled to the training voxel (condition C3 of section 4):
 
 | Row length | Pairs | Coverage, stock to pieces | Change [95 % CI] | Precision change |
 |---|---|---|---|---|
 | 13 points | 40 | 0.503 to 0.632 | +0.129 [+0.057, +0.208] | -0.012 |
 | 21 points, runs that read only cached CT | 27 | 0.117 to 0.563 | +0.446 [+0.340, +0.559] | -0.040 |
+| 15 points, 9.362 um scan (C3) | 40 | 0.329 to 0.543 | +0.214 [+0.140, +0.289] | +0.021 |
 
-On 21-point rows the unchanged tracer almost stops working, and the pieces bring it back to about the 15-point level. My stock 21-point run read 150 chunks that are missing locally, because each step reads the bounding box of the whole front, so the table keeps only the 27 windows with no such read; on them the stock coverage is still 0.117.
+On 21-point rows the unchanged tracer almost stops working, and the pieces bring it back to about the 15-point level. My stock 21-point run read 150 chunks that are missing locally, because each step reads the bounding box of the whole front, so the table keeps only the 27 windows with no such read; on them the stock coverage is still 0.117. On the 9.362 um scan, the protocol of 11 prize-eligible volumes, the gain holds at about the size it has on the training scan, with no missing chunk read.
 
 `results/long_rows/` holds the report, run metadata and per-trace counts of every run above, and `python -m tracereval.pieces_table` rebuilds both tables from them (`tests/test_pieces_table.py` checks every number). Seed files in that folder name the patch folder as `~/kaggle-data/...`; point it at your own prepared patches before reusing them.
 

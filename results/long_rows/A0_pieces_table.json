@@ -364,5 +364,33 @@
    },
    "pairs_before_drop": 40
   }
+ },
+ "exploratory_9362_15": {
+  "n": 40,
+  "stock": {
+   "coverage": 0.32854760460885385,
+   "precision": 0.9456272172198389,
+   "real_switches": 25
+  },
+  "pieces": {
+   "coverage": 0.5429350769220616,
+   "precision": 0.9667922444701628,
+   "real_switches": 30
+  },
+  "change": {
+   "coverage": 0.2143874723132077,
+   "precision": 0.021165027250323876
+  },
+  "ci": {
+   "coverage": [
+    0.14038103050224499,
+    0.28906742185043505
+   ],
+   "precision": [
+    -0.01583891856632909,
+    0.08442702000356375
+   ]
+  },
+  "pairs_before_drop": 40
  }
 }

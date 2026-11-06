@@ -4,7 +4,8 @@ Decision (PLAN_PIECES.md section 4): 15-point fronts at threshold 0.4, pieces (p
 same seeds, the 40 released test seeds pooled with the fresh windows. A seed whose run in either arm added a noncached
 or unlisted chunk read (run_meta.json, per trace) is dropped from its pair. Paired bootstrap over pairs, 2,000
 resamples, generator seed 0 (as ``analyze.paired``). Also the 7-point identity, the 9-point scope check, the reported
-threshold 0.3 comparison, the tuning exploration and the exploratory row lengths.
+threshold 0.3 comparison, the tuning exploration, the exploratory row lengths and the exploratory 15-point runs
+on the 9.362 um scan resampled to the training voxel (condition C3).
 
   python -m tracereval.pieces_table --results results --out results/long_rows/A0_pieces_table.json
 """
@@ -81,6 +82,8 @@ def build(results: Path) -> dict:
             ta, tb, tp, n = pairs(L/f'EXPL_f{f}_stock_t0.4', L/f'EXPL_f{f}_pieces7s2_t0.4', drop=drop)
             lengths[f'{pts}_{"clean" if drop else "all"}'] = dict(stats(ta, tb, tp), pairs_before_drop=n)
     out['exploratory_lengths'] = lengths
+    ca, cb, cp, cn = pairs(L/'A0_C3_f840_t0.4', L/'A0_C3_f840_t0.4_pieces7s2')
+    out['exploratory_9362_15'] = dict(stats(ca, cb, cp), pairs_before_drop=cn)
     return out
 
 
