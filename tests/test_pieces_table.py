@@ -38,3 +38,14 @@ def test_decision_numbers_quoted_in_the_readme():
     assert round(d['fresh']['stock']['coverage'], 3) == 0.408 and round(d['fresh']['pieces']['coverage'], 3) == 0.538
     assert d['pooled']['ci']['coverage'][0] > 0 and d['pooled']['change']['precision'] >= -0.010
     assert d['pooled']['pieces']['real_switches'] <= d['pooled']['stock']['real_switches']+0.10*d['pooled']['n']
+
+
+def test_precision_intervals_quoted_in_the_readme():
+    t = json.loads((RESULTS/'long_rows'/'A0_pieces_table.json').read_text())
+    ci = lambda row: [round(x, 3) for x in row['ci']['precision']]
+    d = t['decision_15']
+    assert (ci(d['pooled']), ci(d['released']), ci(d['fresh'])) == ([-0.022, 0.021], [-0.013, 0.014], [-0.052, 0.028])
+    lengths = t['exploratory_lengths']
+    assert (ci(lengths['13_all']), ci(lengths['21_clean'])) == ([-0.03, 0.004], [-0.102, 0.03])
+    assert (ci(t['exploratory_9362_15']), ci(t['exploratory_864_15'])) == ([-0.016, 0.084], [-0.082, -0.003])
+    assert ci(t['reported_15_t03']) == [-0.078, -0.005] and round(t['reported_15_t03']['change']['precision'], 3) == -0.038
