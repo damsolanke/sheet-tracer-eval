@@ -49,3 +49,9 @@ def test_precision_intervals_quoted_in_the_readme():
     assert (ci(lengths['13_all']), ci(lengths['21_clean'])) == ([-0.03, 0.004], [-0.102, 0.03])
     assert (ci(t['exploratory_9362_15']), ci(t['exploratory_864_15'])) == ([-0.016, 0.084], [-0.082, -0.003])
     assert ci(t['reported_15_t03']) == [-0.078, -0.005] and round(t['reported_15_t03']['change']['precision'], 3) == -0.038
+
+
+def test_precision_levels_quoted_in_the_readme():
+    d = json.loads((RESULTS/'long_rows'/'A0_pieces_table.json').read_text())['decision_15']
+    level = lambda row: (round(row['stock']['precision'], 3), round(row['pieces']['precision'], 3))
+    assert (level(d['pooled']), level(d['released']), level(d['fresh'])) == ((0.946, 0.946), (0.967, 0.969), (0.925, 0.917))
