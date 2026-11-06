@@ -5,7 +5,7 @@ same seeds, the 40 released test seeds pooled with the fresh windows. A seed who
 or unlisted chunk read (run_meta.json, per trace) is dropped from its pair. Paired bootstrap over pairs, 2,000
 resamples, generator seed 0 (as ``analyze.paired``). Also the 7-point identity, the 9-point scope check, the reported
 threshold 0.3 comparison, the tuning exploration, the exploratory row lengths and the exploratory 15-point runs
-on the 9.362 um scan resampled to the training voxel (condition C3).
+on the 9.362 um scan at the training voxel (condition C3) and at 8.64 um per voxel (condition C2).
 
   python -m tracereval.pieces_table --results results --out results/long_rows/A0_pieces_table.json
 """
@@ -84,6 +84,8 @@ def build(results: Path) -> dict:
     out['exploratory_lengths'] = lengths
     ca, cb, cp, cn = pairs(L/'A0_C3_f840_t0.4', L/'A0_C3_f840_t0.4_pieces7s2')
     out['exploratory_9362_15'] = dict(stats(ca, cb, cp), pairs_before_drop=cn)
+    ea, eb, ep, en = pairs(L/'A0_C2_f840_t0.4', L/'A0_C2_f840_t0.4_pieces7s2')
+    out['exploratory_864_15'] = dict(stats(ea, eb, ep), pairs_before_drop=en)
     return out
 
 

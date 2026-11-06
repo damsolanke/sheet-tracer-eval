@@ -392,5 +392,33 @@
    ]
   },
   "pairs_before_drop": 40
+ },
+ "exploratory_864_15": {
+  "n": 40,
+  "stock": {
+   "coverage": 0.2997823005265289,
+   "precision": 0.9632205803163156,
+   "real_switches": 24
+  },
+  "pieces": {
+   "coverage": 0.49222672613985324,
+   "precision": 0.9268735470265638,
+   "real_switches": 30
+  },
+  "change": {
+   "coverage": 0.19244442561332437,
+   "precision": -0.03634703328975186
+  },
+  "ci": {
+   "coverage": [
+    0.12645039298528452,
+    0.26123071235256307
+   ],
+   "precision": [
+    -0.08195512997666488,
+    -0.003381868841405483
+   ]
+  },
+  "pairs_before_drop": 40
  }
 }
