@@ -1,0 +1,304 @@
+{
+ "run_bench_args": [
+  "--piece-points",
+  "7",
+  "--piece-stride",
+  "2",
+  "--threads",
+  "2",
+  "--device",
+  "mps",
+  "--no-figures",
+  "--",
+  "--checkpoints",
+  "~/kaggle-data/vesuvius/hf/sheet_tracer_7pt_gap60/last.pt",
+  "--names",
+  "tracer7",
+  "--patches-dir",
+  "~/kaggle-data/vesuvius/tracereval/prepared/PHerc0139_2399l2_A0slab/heldout_patches",
+  "--all-val",
+  "--max-per-patch",
+  "0",
+  "--min-valid",
+  "0.95",
+  "--seeds",
+  "40",
+  "--steps",
+  "60",
+  "--front",
+  "840",
+  "--threshold",
+  "0.4",
+  "--volume",
+  "~/kaggle-data/vesuvius/tracereval/volumes/PHerc0139_2399um_l2.zarr",
+  "--voxel-size",
+  "9.5960",
+  "--out",
+  "~/kaggle-data/vesuvius/stoprule/runs/AUDIT_FRESH_f840_t0.4_pieces7s2",
+  "--seeds-from",
+  "~/kaggle-data/vesuvius/stoprule/pieces/fresh_f840.json"
+ ],
+ "arrays": [
+  "~/kaggle-data/vesuvius/zarr/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr/2"
+ ],
+ "traces": [
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "noncached": 4,
+   "keys": {
+    "noncached": [
+     [
+      41,
+      34,
+      17
+     ],
+     [
+      41,
+      35,
+      19
+     ],
+     [
+      42,
+      34,
+      17
+     ],
+     [
+      42,
+      35,
+      19
+     ]
+    ]
+   }
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "absent": 5,
+   "keys": {
+    "absent": [
+     [
+      37,
+      15,
+      18
+     ],
+     [
+      37,
+      15,
+      19
+     ],
+     [
+      38,
+      15,
+      18
+     ],
+     [
+      39,
+      15,
+      18
+     ],
+     [
+      40,
+      15,
+      18
+     ]
+    ]
+   }
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "noncached": 1,
+   "keys": {
+    "noncached": [
+     [
+      44,
+      21,
+      22
+     ]
+    ]
+   }
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "noncached": 1,
+   "keys": {
+    "noncached": [
+     [
+      46,
+      26,
+      38
+     ]
+    ]
+   }
+  },
+  {
+   "noncached": 3,
+   "keys": {
+    "noncached": [
+     [
+      37,
+      28,
+      39
+     ],
+     [
+      38,
+      28,
+      39
+     ],
+     [
+      39,
+      28,
+      39
+     ]
+    ]
+   }
+  },
+  {
+   "keys": {}
+  },
+  {
+   "absent": 1,
+   "keys": {
+    "absent": [
+     [
+      44,
+      14,
+      18
+     ]
+    ]
+   }
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "noncached": 2,
+   "keys": {
+    "noncached": [
+     [
+      41,
+      22,
+      30
+     ],
+     [
+      42,
+      22,
+      30
+     ]
+    ]
+   }
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "absent": 1,
+   "keys": {
+    "absent": [
+     [
+      38,
+      14,
+      24
+     ]
+    ]
+   }
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  },
+  {
+   "keys": {}
+  }
+ ],
+ "missing_reads_outside_traces": 0
+}

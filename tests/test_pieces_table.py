@@ -55,3 +55,13 @@ def test_precision_levels_quoted_in_the_readme():
     d = json.loads((RESULTS/'long_rows'/'A0_pieces_table.json').read_text())['decision_15']
     level = lambda row: (round(row['stock']['precision'], 3), round(row['pieces']['precision'], 3))
     assert (level(d['pooled']), level(d['released']), level(d['fresh'])) == ((0.946, 0.946), (0.967, 0.969), (0.925, 0.917))
+
+
+def test_fresh_read_audit_finds_missing_ct_only_in_dropped_pairs():
+    L = RESULTS/'long_rows'
+    dropped = pieces_table._flagged(L/'FRESH_f840_stock_t0.4') | pieces_table._flagged(L/'FRESH_f840_t0.4_pieces7s2')
+    assert len(dropped) == 8
+    for run in ('FRESH_f840_stock_t0.4', 'FRESH_f840_t0.4_pieces7s2'):
+        traces = json.loads((L/run/'read_audit.json').read_text())['traces']
+        assert len(traces) == 45
+        assert {i for i, t in enumerate(traces) if t.get('noncached') or t.get('unlisted')} <= dropped
